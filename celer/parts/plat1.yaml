@@ -1,0 +1,45 @@
+- Clip out of SoR, head to Bokoblin camp near ToT:
+    coord: [-949,1954]
+    color: "#6af"
+    comment: "Consider .item(Spicy Peppers) for upcoming .enemy(cold area) and .wb(windbombs)"
+- Obtain .item(Traveler’s Bow), set skew:
+    movements:
+    - [-933,1990]
+    - [-889,1991]
+    - [-822,1977]
+- .blss(BLSS) to Bombs shrine:
+    coord: [-447,1990]
+- Complete shrine:
+    icon: shrine
+- Complete Old Man dialog:
+    comment: "Fastest options are .dialog(2), .dialog(1), .dialog(1), .dialog(2)"
+- .blss(BLSS) to Magnesis shrine:
+    coord: [-672,1513]
+    color: "#b22"
+- Complete shrine:
+    icon: shrine
+    comment: "Do not windbomb; get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."
+- .blss(BLSS) to south-east tree grove:
+    movements:
+    - [-656,1915]
+    - [-856,2276]
+    color: "#cc5"
+- .wb(Windbomb) up to Stasis shrine:
+    movements:
+    - [-943,2296]
+    - [-933,2319]
+- Complete shrine:
+    icon: shrine
+- Climb and .blss(BLSS) to Cryonis shrine:
+    movements:
+    - [-976,2288]
+    - [-1008,2272]
+    - [-1047,2142]
+    - [-1405,1981]
+    - [-1435,1991]
+    color: "#6cf"
+- Complete shrine:
+    icon: shrine
+- Return to ToT for .milestone(Paraglider):
+    coord: [-812,1971]
+    color: "#2c8"

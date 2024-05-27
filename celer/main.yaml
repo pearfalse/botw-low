@@ -1,0 +1,41 @@
+# - Overview:
+#   - Start out like Best Ending
+#   - Make 8 offset, obtain Travel Medallion and Star
+#   - Set up manual save at Hyrule Castle
+#   - Do first half of WMC in an autosave branch at Korok Forest with a broken Master Sword
+#   - Transfer Roasted Endura Carrot with smuggled recipe back to manual save, finish WMC to corrupt Royal Guard's Bow
+#   - Beat Blights and Calamity, steal Bow of Light
+#   - Corrupt BoL with same WMC recipe
+#   - Head to Mounted Archery Camp with a registered horse
+#   - Perform Memory Storage, transfer 3 items to a new game
+#   - Complete plateau, recover a memory, perform Inventory Transfer
+#   - Apply a Moon Jump Wrong Warp to IT autosave
+#   - Beat game with wrong-warped file
+- Plateau 1:
+  - use: ./parts/plat1.yaml
+- Kakariko 1:
+  - .blss(BLSS) to the top of Sahasra Slope:
+      coord: [1540,1056]
+- IST 1:
+  - See IST script `bmswmc1`
+- Castle 1:
+  - Get to Zelda’s room
+- BMSWMC:
+  - Make the special carrot
+- Castle 2:
+  - Beat Blights and Calamity, get BoL
+- Horsing Around:
+  - Head to MAC with 0x fairy
+- Memory Storage:
+  - Do MS, new game plat
+- Recover Memory:
+  - Recover memory "Revali’s Flap"
+- Ganon 2:
+  - Eat slate and medallion,
+  - Beat Blights and Calamity
+  - Watch memory in DBG fight
+  - Reduce inventory
+  - Ensure corrupted BoL is not equipped
+  - Finish DBG
+- Final Run:
+  - Beat the game

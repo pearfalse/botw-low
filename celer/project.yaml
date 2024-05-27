@@ -1,0 +1,22 @@
+title: Low%
+version: 2.0
+route:
+  use: ./main.yaml
+
+config:
+- use: Pistonight/celer-presets/botw/map.yaml
+- tags:
+    blss:
+      color: "#4bb"
+    wb:
+      color: "#9ff"
+    dialog:
+      color: "#c86"
+    item:
+      color: "#fc3"
+    enemy:
+      color: "#f43"
+    milestone:
+      color: "#2f7"
+- icons:
+    shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
