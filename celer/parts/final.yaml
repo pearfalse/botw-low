@@ -1,4 +1,5 @@
-- Skip the .loc(Hyrule Castle) first arrival cutscene
+- Skip the .loc(Hyrule Castle) first arrival cutscene:
+    color: "#f43"
 - Set up a .glitch(skew bounce):
     comment: Same setup as before
 - Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights
