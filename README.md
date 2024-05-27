@@ -43,7 +43,7 @@ This route plays through the game three times:
 # FAQ (Fully Anticipated Question)
 
 <dl>
-<dt>oh god why did you put _memory storage_ in this what is your _problem_</dt>
+<dt>oh god why did you put <em>memory storage</em> in this what is your <em>problem</em></dt>
 <dd>The NG+ file that actually beats the game has the following inventory requirements:
 
 - No pre-transfer inventory
