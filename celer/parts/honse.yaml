@@ -8,7 +8,7 @@
     coord: [529.5,3448.5]
 - Sell all .item(Roasted Endura Carrots) to .npc(Beedle)
 - Prepare inventory for more .glitch(corruption):
-    comment: See .glitch(bmswmc3.txt)
+    comment: See .glitch(ist3.txt)
 - Save, reload, ride horse to the .loc(Mounted Archery Camp):
     notes:
     - Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the last reload.

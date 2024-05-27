@@ -1,0 +1,100 @@
+init 1 boko sp [life=400] 1 torch [equip] 1 trav bow 4 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 3 end c 1 blue ni 1 apple 1 wood 3 fried wild [modifier=enduring] 1 medallion
+break 8 slots
+# bows MUST be unquipped, torch should be equipped
+save
+# enter KF, don't discover the shrine
+get 1 tree branch 1 forest spear
+drop pot lid from slot 2
+# stay inside the deku tree to stop things despawning
+drop 1 boko spear 1 forest spear 1 torch 1 pot lid
+# sell 1 for money, eat the other two
+sell all fried wild
+drop 1 apple
+get 1 baked apple
+drop 1 end c
+drop 2 end c
+# pick up and roast two of them; only pick one up from the pot edge
+get 1 roast end c
+# entangle hold prompt from blue nightshade to REC; hold stack to 3
+write [life=3] to roast end c
+drop 1 blue ni 3 roast end c
+cook fried wild greens [modifier=sneaky,price=311,hp=112]
+# pick up the other REC
+get 1 roast end c
+get 1 pot lid [life=3] 1 torch 1 forest sp
+# campfire glitch; bring a lit torch from the deku tree to the pedestal
+drop 1 wood 1 torch
+get 1 master sword
+drop all blue ni all end c all wood
+# head under large tree root, near Keo Ruug Shrine
+drop 1 trav bow 1 pot lid
+# equip MS normally, entangle tree branch equip to a material (fairy), jump attack 3x, equip MS normally and break it
+write [life=0] to master sword
+drop tree branch
+get trav bow
+equip forest spear
+unequip trav bow
+save as A_Shrine
+eat 1 fried wild 1 roast end c
+get 1 tree branch 1 pot lid [life=3]
+dnp forest spear
+unequip forest spear
+equip trav bow
+reload A_Shrine
+# TOTS dialog CS will get this for you
+save as A_TOTS
+get forest shield
+reload A_TOTS
+eat all roast end all fried wild 1 baked
+reload A_TOTS
+# move into the deku tree
+drop 1 forest spear 2 trav bow
+eat 1 baked apple
+get 1 razorshroom
+# entangle hold prompt from fairy
+write [life=4] to razorshroom
+drop all razorshroom
+get mush skew [modifier=mighty]
+eat fried wild
+get 2 trav bow [life=3]
+drop pot lid
+dnp forest shield
+# entangle FDS equip prompt onto MS
+equip master
+drop trav bow
+reload
+equip master sword
+# distract and sneakstrike the black moblin
+get 1 roy g b 1 edge of
+unequip all bows
+equip forest shield
+drop all end carrot all blue ni all apple all wood
+drop trav bow from slot 2
+save
+# 1 food scrap
+eat 1 roast end c 2 fried wild 1 mush sk
+unequip forest shield
+reload
+save
+# 3 food scrap
+eat 1 mush sk 1 roast end c
+reload
+eat all fried wild
+eat all mush sk
+# 0 food scrap
+reload
+# enter ganon fights
+equip roy g b
+eat mush sk
+shoot 12 arrows
+write [life=800] to roy g b
+get bow of light
+drop 2 pot lid 1 forest shield
+# 0 food scrap
+eat 3 fried wild
+reload
+drop 1 roy g b 1 trav bow from slot 2
+save
+eat 3 fried wild 1 mush sk
+reload
+# tada

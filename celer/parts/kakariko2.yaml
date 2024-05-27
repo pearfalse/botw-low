@@ -9,7 +9,7 @@
 - Talk to .npc(Impa):
     comment: You will complete the .quest(Locked Mementos) main quest, and gain .quest(Captured Memories)
 - Head down to the .loc(cooking pot) and use 3× .item(Endura Carrot) to cook .item(3× Enduring Fried Wild Greens):
-    comment: Cross-reference with .glitch(bmswmc1.txt)
+    comment: Cross-reference with .glitch(ist1.txt)
     movements:
     - [1784,994]
     - [1797,1012]

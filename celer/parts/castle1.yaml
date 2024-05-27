@@ -31,7 +31,7 @@
     - [406.25,-2082.5]
     - pop
 - Cook the special meal and smuggle its recipe:
-    comment: This is 100% an .glitch(IST setup); see .glitch(bmswmc2.txt)
+    comment: This is 100% an .glitch(IST setup); see .glitch(ist2.txt)
 - Reload and transfer back into the .milestone(manual save)
 - Distract the .enemy(Black Moblin):
     comment: Shoot an arrow at the marked spot
@@ -66,7 +66,7 @@
 - Defeat .enemy(Calamity Ganon):
     notes: ["If you can get a laser attack at the start of phase 2, you won’t need any more advanced strats."]
 - Pick up the .item(Bow of Light) and .glitch(transfer) it back to the manual save:
-    comment: Prepare for reload as per .glitch(bmswmc2.txt)
+    comment: Prepare for reload as per .glitch(ist2.txt)
     movements:
       - to: [-340.5,-995.6]
         warp: true
