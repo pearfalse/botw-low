@@ -1,0 +1,31 @@
+- .blss(BLSS) back to .loc(Kakariko Village):
+    movements:
+      - [3797,2109]
+      - [1984,1426]
+      - [1760,1290]
+      - [1795.5,988.4]
+      - [1773.5,985]
+    comment: With clean-enough movement, you can land in .npc(Impa)’s hut before the front doors load in
+- .dialog(Talk to Impa):
+    comment: You will complete the .quest(Locked Mementos) main quest, and gain .quest(Captured Memories)
+- Head down to the .loc(cooking pot) and use 3× .item(Endura Carrot) to cook .item(3× Enduring Fried Wild Greens):
+    comment: Cross-reference with .glitch(bmswmc1.txt)
+    movements:
+    - [1784,994]
+    - [1797,1012]
+- .glitch(Entangle) .term(Drop) prompts from both .item(shields) to drop the .item(Sheikah Slate) and .item(Paraglider):
+    comment: For a micro time save, cook them into one of the meals
+- Place the .item(Travel Medallion):
+    coord: [1871.5,914.5]
+    comment: You don't need to be precise; this location is just usually where my windbomb lands
+- Bomb the tree by .loc(Ta'loh Naeg Shrine) to create a BLSS launch point:
+    coord: [1835,935.8]
+- .blss(BLSS) to the edge of .loc(Hyrule Castle):
+    comment: See marker for flat ground that stops your bomb rolling away
+    markers:
+      - at: [1841.5,900.5]
+    movements:
+      - [1809.5,922.6]
+      - [1788,843]
+      - [-38.5,-877.7]
+    color: "#820"

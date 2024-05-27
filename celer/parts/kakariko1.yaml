@@ -14,7 +14,7 @@
     movements:
     - [1801,989]
     - [1787,988]
-- Enter .npc(Impa)’s hut and mash through the dialog:
+- Enter .npc(Impa)’s hut and mash through the .dialog(dialog):
     comment: When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B)
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
     comment: Keep this one unequipped, so that it never gets damaged
@@ -25,12 +25,12 @@
     movements:
     - [1888,924]
     - [1971,868]
-- "Grab 3 of each of: .item(Fairies), .item(Blue Nightshade), .item(Endura Carrot)":
-    comment: Grabbing the .item(fairies) first will save a D&P later
+- "Grab 3 of each of: .item(Fairy), .item(Blue Nightshade), .item(Endura Carrot)":
+    comment: Grabbing the .item(fairies) first will save a D&P later. You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
 - Bomb the tree by the rock:
     markers:
     - at: [1959,855]
-    comment: This prevents lag that would stifle an upcoming windbomb
+    comment: This prevents possible lag that would stifle an upcoming windbomb
 - .wb(Windbomb) over the cliffs and east to the Korok puzzle trees:
     movements:
       - to: [1960,855]
@@ -44,23 +44,3 @@
       - [2716,1127]
       - [2668,1480]
       - [3443,1983]
-- .glitch(Weapon smuggle) your .item(Torch) lit with the blue flame
-- Climb on top of the furnace, stand at the edge, and aim your bow at this spot:
-    markers:
-    - at: [3467.5,1993.4]
-- .wb(Windbomb) towards the .loc(Hateno Ancient Tech Lab):
-    comment: Axis-align Link before detonating the round bomb
-    movements:
-      - [3639.5,2141]
-- Light the furnace at the .loc(Hateno Ancient Tech Lab):
-    movements:
-      - [3713,2073]
-      - [3753.5,2056]
-      - [3790.5,2082.5]
-      - [3788,2120.5]
-    comment: Grab .item(Apples) from the trees if you have less than 3
-- Talk to .npc(Purah), gain missing runes, show her a photo of herself
-- Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
-- Ensure .item(Fairies) are in .tab(Materials) slot 1
-- Ensure everything is unequipped
-- .milestone(Manually save)

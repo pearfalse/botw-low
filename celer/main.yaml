@@ -11,12 +11,14 @@
 #   - Complete plateau, recover a memory, perform Inventory Transfer
 #   - Apply a Moon Jump Wrong Warp to IT autosave
 #   - Beat game with wrong-warped file
-- Plateau 1:
+- Great Plateau, first run:
   - use: ./parts/plat1.yaml
-- Kakariko 1:
+- Kakariko Village, part 1:
   - use: ./parts/kakariko1.yaml
-- IST 1:
-  - See IST script `bmswmc1`
+- Hateno Village:
+  - use: ./parts/hateno.yaml
+- Kakariko Village, part 2:
+  - use: ./parts/kakariko2.yaml
 - Castle 1:
   - Get to Zelda’s room
 - BMSWMC:

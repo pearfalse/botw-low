@@ -5,6 +5,8 @@ route:
 
 config:
 - use: Pistonight/celer-presets/botw/map.yaml
+- plugins:
+  - use: link
 - tags:
     blss:
       color: "#4bb"
@@ -18,6 +20,9 @@ config:
       color: "#f43"
     milestone:
       color: "#3af"
+    quest:
+      includes: milestone
+      italic: true
     npc:
       color: "#ffa"
     bold:
@@ -26,7 +31,13 @@ config:
       color: "#2e4"
     glitch:
       color: "#f3c"
-    tab:
+    quote:
       italic: true
+      color: "#eee"
+    tab:
+      includes: quote
+      color: white
+    s:
+      strikethrough: true
 - icons:
     shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
