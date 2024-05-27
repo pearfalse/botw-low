@@ -42,11 +42,13 @@ This route plays through the game three times:
 
 # FAQ (Fully Anticipated Question)
 
-Q: oh god why did you put _memory storage_ in this what is your _problem_
-A: The NG+ file that actually beats the game has the following inventory requirements:
+<dl>
+<dt>oh god why did you put _memory storage_ in this what is your _problem_</dt>
+<dd>The NG+ file that actually beats the game has the following inventory requirements:
 
 - No pre-transfer inventory
 - Must include working paraglider
 - Must not collect additional items, locations, or quest progress
 
 Unfortunately this very particular combination is not possible with IST, as we'd have no way within the SoR to get back to positive `mCount` and stop transferring the same glider.
+</dd>
