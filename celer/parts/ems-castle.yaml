@@ -45,7 +45,13 @@
     - [-149.75,-816]
 - .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate):
     note: No, this won't remove it from the world.
-- Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion)
-- Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights:
+- Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion):
+    movements:
+      - to: [-307,-1006]
+        warp: true
+- Set up a .glitch(skew bounce):
     notes:
-    - There's no known .glitch(Windblight skip) setup with the Bow of Light; usual trajectories don't work.
+      - Equip a 1H weapon, bow, and shield, and climb above the Sanctum entrance.
+      - Face away from the wall holding ZL, and position the camera directly facing Link.
+      - Front-hop, tap R to turn 180˚, press A to shield surf, and tap ZR to enter bullet time.
+      - Link will try surfing on the slightly sloped ground. Let him dismount.
