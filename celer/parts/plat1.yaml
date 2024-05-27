@@ -18,7 +18,7 @@
     color: "#b22"
 - Complete shrine:
     icon: shrine
-    comment: "Do not windbomb; get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."
+    notes: ["Do not windbomb; get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."]
 - .blss(BLSS) to south-east tree grove:
     movements:
     - [-656,1915]

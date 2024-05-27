@@ -2,7 +2,7 @@
     movements:
     - [371.5,3331.5]
 - Kill one of the horse-mounted .enemy(Bokoblins) with the .item(Bow of Light):
-    comment: You might have to paraglide a bit before they'll load in. Do not kill the horse.
+    notes: ["You might have to paraglide a bit before they'll load in. Do not kill the horse."]
     coord: [534,3340.8]
 - Land on the horse and register it:
     coord: [529.5,3448.5]
@@ -10,7 +10,9 @@
 - Prepare inventory for more .glitch(corruption):
     comment: See .glitch(bmswmc3.txt)
 - Save, reload, ride horse to .loc(Mounted Archery Camp):
-    comment: Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the last reload. Autosave occurs roundabout the marked point
+    notes:
+    - Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the last reload.
+    - Autosave occurs roundabout the marked point
     movements:
     - [457,3459.5]
     - [247.5,3509]
@@ -19,8 +21,10 @@
     - at: [154,3394.5]
 - Get autosave at the .loc(Mounted Archery Camp)
 - .milestone(Close and reopen the game)
+- Reload the most recent autosave
 - Get .glitch(Memory Storage):
-    comment: Reload the most recent autosave to die. The first .item(Fairy) slot is .glitch(0×), so you can get there quicker despite having fairies.
+    comment: Use the same autosave in the setup
+- Continue the second-most recent autosave
 - Warp to the .item(Travel Medallion) at .loc(Kakariko Village):
     movements:
     - to: [1871.5,914.5]

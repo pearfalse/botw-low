@@ -15,7 +15,7 @@
     - [1801,989]
     - [1787,988]
 - Enter .npc(Impa)’s hut and mash through the .dialog(dialog):
-    comment: When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B)
+    notes: ["When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B)."]
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
     comment: Keep this one unequipped, so that it never gets damaged
     movements:
@@ -26,8 +26,10 @@
     - [1888,924]
     - [1971,868]
 - "Grab 3 of each of: .item(Fairy), .item(Blue Nightshade), .item(Endura Carrot)":
-    comment: Grabbing the .item(fairies) first will save a D&P later. You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
-- Bomb the tree by the rock:
+    notes:
+    - Grabbing the .item(fairies) first will save a D&P later.
+    - You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
+- Bomb the tree right by the rock:
     markers:
     - at: [1959,855]
     comment: This prevents possible lag that would stifle an upcoming windbomb
@@ -38,7 +40,7 @@
       - [2052,772]
       - [2125,685]
 - Bomb the nearest tree and pick up .bold(one) .item(Apple):
-    comment: Pick up more and you may accidentally solve the puzzle!
+    notes: [Pick up more and you may accidentally solve the puzzle!]
 - .blss(BLSS) to the .loc(blue flame furnace) at .loc(Hateno Village):
     movements:
       - [2716,1127]

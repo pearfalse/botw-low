@@ -3,8 +3,9 @@
     - [-55,-875.2]
     - [-339.5,-960]
     - [-340.5,-995.6]
-    comment: The section of wall in this launch point is perfectly ordinal-aligned, so stand 45˚ to it for a clean launch, if you can't use the minimap.
-- .milestone(Manually save) inside at bridge end height
+    notes: ["The section of wall in this launch point is perfectly ordinal-aligned, so if you can't use the minimap to check your rotation, stand 45˚ to this edge."]
+- .milestone(Manually save) inside at bridge end height:
+    comment: Your torch .bold(must) be equipped
 - .wb(Windbomb) to reach the outer structure of the Sanctum:
     movements:
     - [-332.25,-985.3]
@@ -14,12 +15,14 @@
     color: "#840"
     comment: Look for the eroded wall from the buttress into the central structure
 - .blss(BLSS) into .loc(Korok Forest):
-    comment: Use the collapsed edge on the very left-hand side to get the step-up animation. Aim for the centre of the Deku Tree.
+    notes:
+      - Use the collapsed edge on the very left-hand side to get the step-up animation.
+      - Aim for the centre of the Deku Tree.
     movements:
     - [-281.5,-1141.9]
     - [425.25,-2136.7]
 - If you get taken by the void fog::
-    comment: You'll most likely respawn at the start of the .quest(Trial of Second Sight). .wb(Windbomb) NE from the Korok's mound into .loc(Korok Forest).
+    notes: ["You'll most likely respawn at the start of the .quest(Trial of Second Sight). .wb(Windbomb) NE from the Korok's mound into .loc(Korok Forest)."]
     movements:
     - push
     - to: [251,-1984]
@@ -48,15 +51,17 @@
 - Set up .glitch(Windblight Skip) while eating the .item(Mighty Mushroom Skewer):
     comment: You can use the .item(Edge of Duality) if your preferred setup needs a two-handed weapon
 - Defeat .enemy(Waterblight Ganon):
-    comment: Do a body shot (.bold(never) a headshot) with the corrupted .item(Royal Guard's Bow) to do enough damage to immediately end the first phase. Stand within the stone dais in the centre of the room before finishing phase 2.
+    notes:
+    - Do a body shot (.bold(never) a headshot) with the corrupted .item(Royal Guard's Bow) to do enough damage to immediately end the first phase.
+    - Stand within the stone dais in the centre of the room before finishing phase 2 to set up an AI manip.
 - Defeat .enemy(Fireblight Ganon):
-    comment: The previous standing point is an AI manip that lets you one-shot Fireblight. Shoot its head about 25% in from the edge at eye level and it'll die in one hit, no phase change.
+    notes: ["It’s possible to one-shot Fireblight. Shoot its head about 25% in from the edge at eye level and it’ll die before the phase change can happen."]
 - Defeat .enemy(Thunderblight Ganon), phase 1:
-    comment: If you don't get a perfect dodge, the .item(Master Sword) has enough durability left to break its shield. Shoot it once with the bow.
+    notes: ["If you don’t get a perfect dodge, the .item(Master Sword) has enough durability left to break its shield. Shoot it once with the bow."]
 - Defeat .enemy(Thunderblight Ganon), phase 2 (Magnesis):
     comment: Quicker to use the dev-intended strat. Once ragdolled, immediately kill it with one arrow shot to skip phase 3.
 - Defeat .enemy(Calamity Ganon):
-    comment: Not much to this really, just use your corrupted bow to melt its health.
+    comment: No special strats here, shoot it until it dies
 - Pick up the .item(Bow of Light) and .glitch(transfer) it back to the manual save:
     comment: Prepare for reload as per .glitch(bmswmc2.txt).
     movements:
