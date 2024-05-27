@@ -35,4 +35,4 @@
 - Make the NG+ file:
   - use: ./parts/make-ng-plus.yaml
 - Final Run:
-  - Beat the game
+  - use: ./parts/final.yaml

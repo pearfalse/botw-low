@@ -1,0 +1,26 @@
+- Skip the .loc(Hyrule Castle) first arrival cutscene
+- Set up a .glitch(skew bounce):
+    comment: Same setup as before
+- Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights
+- Defeat .enemy(Windblight Ganon) and .enemy(Waterblight Ganon):
+    comment: Same strats as last time
+- Defeat .enemy(Fireblight Ganon):
+    notes: ["If you miss the one-shot kill, you’ll have to parry the fireball. Its trajectory is so vertical that parrying is sometimes impossible, so stand as far back as you can."]
+- Defeat .enemy(Thunderblight Ganon):
+    notes:
+    - You don’t have Magnesis this time, so throw the .item(Lizal Tri-Boomerang) at its shield during phase 2. This stops it conducting electricity, and stuns it enough for a kill.
+    - You should really pick the .item(Boomerang) back up before leaving the fight.
+    - Both the above points making the timing seem quite tight, but you don’t need to get the shot in before Thunderblight exits the sun. Its first moveset is to teleport back to the same place, and doesn’t rebuild its shield for a couple more seconds.
+- Defeat .enemy(Calamity Ganon):
+    notes:
+    - You should defensively dodge its first attack before going on the offensive.
+    - If the first attack is a horizontal fire axe swipe, and you dodge it early in the window, you .bold(must) do at least one of the flurry rush attacks to move Link out of the way.
+    - Unlike in Calamity 2, pause buffering an unequip of the .item(Bow of Light) is mandatory here; finishing the game with more than one bow will invalidate the run.
+- Defeat .enemy(Dark Beast Ganon):
+    notes:
+    - Don’t pick up the intended bow at all.
+    - Using a zooming bow on DBG may take some practice.
+    - If you’re used to lining up for the final shot with the Sheikah Scope, remember that you don’t have that ability here!
+- GG!:
+    notes:
+    - BotW completed with 1 weapon, 1 bow, 1 shield, 1 key item, no main quests, no shrines, no runes.

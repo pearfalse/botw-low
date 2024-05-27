@@ -12,7 +12,7 @@
 - Defeat .enemy(Calamity Ganon):
     notes:
     - In phase 2, after breaking its shield with a parry, NSJ to activate the .glitch(skew bounce). This gives you enough height to enter bullet time and headshot Calamity.
-    - This time though, it’s important not to leave the Calamity fight with a Bow of Light equipped, or it’ll dupe when you arrive at .loc(the DBG fight). Pause buffer to unequip before the fight ends. This will take some practice.
+    - This time though, it’s important not to leave the Calamity fight with a Bow of Light equipped, or it’ll dupe when you arrive at .loc(the DBG fight). Pause buffer with the bow quick menu to unequip before the fight ends. This will take some practice.
 - Enter the .enemy(Dark Beast Ganon) fight:
     notes:
     - If your .item(Bow of Light) duped, use the dupe and keep it equipped. Do not pick up the intended one.

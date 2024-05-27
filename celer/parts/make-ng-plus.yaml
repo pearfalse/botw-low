@@ -28,9 +28,13 @@
     movements:
     - [-185.5,-1000]
     - [-220,-1026]
-- Reload the autosave at the .loc(Mounted Archery Camp)
+- Reload the autosave at the .loc(Mounted Archery Camp):
+    movements:
+    - to: [-185.5,3496]
+      warp: true
 - Talk to .npc(Jini) on horseback to start the minigame:
     comment: "Dialog options: .dialog(A) .dialog(A) .dialog(B) .dialog(A)"
+    coord: [-211,3484]
 - Use the wild horses to activate .glitch(Moon Jump):
     markers:
     - at: [-271,3661]
