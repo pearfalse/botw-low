@@ -26,3 +26,43 @@
       warp: true
     - [406.25,-2082.5]
     - pop
+- Cook the special meal and smuggle its recipe:
+    comment: This is 100% an .glitch(IST setup); see .glitch(bmswmc2.txt).
+- Reload and transfer back into the .milestone(manual save)
+- Distract the .enemy(Black Moblin):
+    comment: Shoot an arrow at the marked spot
+    markers:
+      - at: [-327.5,-987.5]
+- Sneakstrike the .enemy(Moblin) with the .item(Master Sword):
+    comment: and take its .item(Edge of Duality)
+- Grab the .item(Royal Guard’s Bow) with Magnesis
+- Finish the .glitch(WMC setup) in Zelda’s room
+- .wb(Windbomb) to the SE .loc(Sanctum) entrance:
+    color: "#820"
+    movements:
+      - to: [-340.5,-995.6]
+        warp: true
+      - [-344.5,-995.9]
+      - [-191,-1001.9]
+      - [-217,-1025.9]
+- Set up .glitch(Windblight Skip) while eating the .item(Mighty Mushroom Skewer):
+    comment: You can use the .item(Edge of Duality) if your preferred setup needs a two-handed weapon
+- Defeat .enemy(Waterblight Ganon):
+    comment: Do a body shot (.bold(never) a headshot) with the corrupted .item(Royal Guard's Bow) to do enough damage to immediately end the first phase. Stand within the stone dais in the centre of the room before finishing phase 2.
+- Defeat .enemy(Fireblight Ganon):
+    comment: The previous standing point is an AI manip that lets you one-shot Fireblight. Shoot its head about 25% in from the edge at eye level and it'll die in one hit, no phase change.
+- Defeat .enemy(Thunderblight Ganon), phase 1:
+    comment: If you don't get a perfect dodge, the .item(Master Sword) has enough durability left to break its shield. Shoot it once with the bow.
+- Defeat .enemy(Thunderblight Ganon), phase 2 (Magnesis):
+    comment: Quicker to use the dev-intended strat. Once ragdolled, immediately kill it with one arrow shot to skip phase 3.
+- Defeat .enemy(Calamity Ganon):
+    comment: Not much to this really, just use your corrupted bow to melt its health.
+- Pick up the .item(Bow of Light) and .glitch(transfer) it back to the manual save:
+    comment: Prepare for reload as per .glitch(bmswmc2.txt).
+    movements:
+      - to: [-340.5,-995.6]
+        warp: true
+- .glitch(Corrupt) the .item(Bow of Light) with the same .glitch(WMC) recipe
+- Recover the .quest(Father and Daughter) memory on the bridge:
+    coord: [-364.3,-995.5]
+    color: "#ec0"
