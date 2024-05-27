@@ -1,16 +1,19 @@
-init 1 boko spear [life=400] 1 torch 1 trav bow [life=2100,equip] 5 arrow [equip] 1 pot lid [life=400] 1 pot lid 1 ancient screw 3 fairy 3 blue night 3 silent p 3 end carrot 3 apple 1 slate 1 glider
+init 1 boko spear [life=400] 1 torch 1 trav bow [life=2100,equip] 4 arrow [equip] 1 pot lid [life=400] 1 pot lid 1 ancient screw 3 fairy 3 blue night 3 silent p 3 end carrot 3 apple 1 slate 1 glider
 dnp 1 ancient screw
 save
 break 8 slots with 2 night 2 princess 2 end c 2 apple
 drop 1 anc screw
 reload
 get 1 barb
-# leave ancient screw and 1 scrap mat
-drop all fairy all blue ni all princess all hy shr all apple all pot lid 1 end c
-unequip trav bow
+# leave ancient screw, no scrap mats
+drop all fairy all blue ni all princess all hy shr all apple all end c
+drop 1 pot lid from slot 3
+drop 1 pot lid from slot 2
+equip pot lid
 get trav m
 reload
 shoot 1 arrow
+# note that corrupting the arrows is *not* a goal here
 save
 # from the first slot
 dnp 1 anc screw
@@ -20,3 +23,4 @@ sell 3 anc screw
 drop 3 end c
 get 3 fried wild [modifier=enduring]
 drop 1 slate 1 glider
+# materials left of fairies are redundant; ist2 does not assume they're present
