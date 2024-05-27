@@ -22,7 +22,7 @@
   - use: ./parts/hateno.yaml
 - Kakariko Village, part 2:
   - use: ./parts/kakariko2.yaml
-- Hyrule Castle, part 1:
+- WMC & Ganon 1:
   - use: ./parts/castle1.yaml
 - Horsing Around:
   - use: ./parts/honse.yaml

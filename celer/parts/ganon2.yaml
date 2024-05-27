@@ -1,6 +1,6 @@
 - Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights:
     notes:
-    - There’s no known .glitch(Windblight skip) setup with the Bow of Light; usual trajectories don’t work.
+    - There’s no known .glitch(Windblight skip) setup with the Bow of Light.
     coord: [-290,-1024]
 - Defeat .enemy(Windblight Ganon):
     comment: Stand in the stone dais when finishing phase 1

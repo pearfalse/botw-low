@@ -1,3 +1,7 @@
+- Place the .item(Travel Medallion) here:
+    comment: in case the next BLSS fails
+    icon: tm
+    notes: ["This is only possible immediately after getting the paraglider from the king, and without leaving the room."]
 - .blss(BLSS) to near .loc(Shae Loya Shrine):
     movements:
     - [-1860,-279]
@@ -12,7 +16,7 @@
     - [-3263,-1067.5]
     - [-3685,-1813]
     - [-3635,-1832.5]
-    note: You can launch off one of the ore patches, but it's finicky
+    notes: ["You can launch off one of the ore patches, but it’s finicky."]
 - Talk to .npc(Kaneli) to get the .quest(Divine Beast Vah Medoh) quest
 - Talk to .npc(Saki) to recover the .quest(Revali’s Flap) memory:
     coord: [-3610,-1818.7]
@@ -39,12 +43,8 @@
     - [-152,-898.1]
 - Take its .item(boomerang), .item(shield), and any two distinct .item(monster parts)
 - Cook one food item into a meal to unlock the .tab(Food) tab:
-    movements:
-    - [-158.75,-891.3]
-    - [-128.5,-853]
-    - [-149.75,-816]
-- .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate):
-    note: No, this won't remove it from the world.
+    coord: [-149.75,-816]
+- .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate)
 - Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion):
     movements:
       - to: [-307,-1006]

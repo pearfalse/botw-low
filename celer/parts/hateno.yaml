@@ -23,12 +23,12 @@
 - Ensure everything is unequipped
 - .milestone(Manually save):
     movements: [push]
-- .wb(Windbomb) down to Pruce's store:
+- .wb(Windbomb) down to .loc(Pruce's General Store):
     movements:
       - [3804.5,2106]
       - [3462.5,2122]
       - [3361.5,2156]
-- Create .glitch(8 offset) using Pruce and gathered materials:
+- Create .glitch(8 offset) using .npc(Pruce) and gathered materials:
     comment: See IST script .glitch(bmswmc1.txt) for setup; follow that and this together until first .milestone(manual save) reload
 - Reload .milestone(manual save):
     notes: ["It doesn't matter what you transfer; this is just slightly quicker than warping."]

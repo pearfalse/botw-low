@@ -1,6 +1,6 @@
-- .blss(BLSS) to the top of Sahasra Slope:
+- .blss(BLSS) to the top of .loc(Sahasra Slope):
     coord: [1540,1056]
-- .wb(Windbomb) into Kakariko Village:
+- .wb(Windbomb) into .loc(Kakariko Village):
     comment: and land by the .item(Torch) near the upper campfire
     movements:
     - [1781,1056]
@@ -15,7 +15,7 @@
     - [1801,989]
     - [1787,988]
 - Enter .npc(Impa)’s hut and mash through the .dialog(dialog):
-    notes: ["When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B)."]
+    notes: ["When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B) (.quote(“Understood.”))."]
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
     comment: Keep this one unequipped, so that it never gets damaged
     movements:
@@ -33,6 +33,7 @@
     markers:
     - at: [1959,855]
     comment: This prevents possible lag that would stifle an upcoming windbomb
+- Bomb it again to get a .item(bundle of Wood)
 - .wb(Windbomb) over the cliffs and east to the Korok puzzle trees:
     movements:
       - to: [1960,855]

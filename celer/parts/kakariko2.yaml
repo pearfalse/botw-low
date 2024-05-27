@@ -6,7 +6,7 @@
       - [1795.5,988.4]
       - [1773.5,985]
     notes: ["With clean-enough movement, you can land in .npc(Impa)’s hut before the front doors load in."]
-- .dialog(Talk to Impa):
+- Talk to .npc(Impa):
     comment: You will complete the .quest(Locked Mementos) main quest, and gain .quest(Captured Memories)
 - Head down to the .loc(cooking pot) and use 3× .item(Endura Carrot) to cook .item(3× Enduring Fried Wild Greens):
     comment: Cross-reference with .glitch(bmswmc1.txt)
