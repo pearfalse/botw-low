@@ -14,8 +14,7 @@
 - Plateau 1:
   - use: ./parts/plat1.yaml
 - Kakariko 1:
-  - .blss(BLSS) to the top of Sahasra Slope:
-      coord: [1540,1056]
+  - use: ./parts/kakariko1.yaml
 - IST 1:
   - See IST script `bmswmc1`
 - Castle 1:

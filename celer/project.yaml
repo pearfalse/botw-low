@@ -17,6 +17,16 @@ config:
     enemy:
       color: "#f43"
     milestone:
-      color: "#2f7"
+      color: "#3af"
+    npc:
+      color: "#ffa"
+    bold:
+      bold: true
+    loc:
+      color: "#2e4"
+    glitch:
+      color: "#f3c"
+    tab:
+      italic: true
 - icons:
     shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png

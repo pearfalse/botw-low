@@ -1,0 +1,66 @@
+- .blss(BLSS) to the top of Sahasra Slope:
+    coord: [1540,1056]
+- .wb(Windbomb) into Kakariko Village:
+    comment: and land by the .item(Torch) near the upper campfire
+    movements:
+    - [1781,1056]
+    - [1894, 968]
+- Redeem .item(Spirit Orbs) for an .milestone(essence) of your choice:
+    coord: [1837,999]
+- Grab two .item(Apples) from the left of the Korok trays:
+    coord: [1809,997]
+    comment: Stay away from .npc(Cado) and .npc(Dorian) to avoid a lengthy dialog sequence
+- Jump behind the trays and climb the railings near .npc(Paya):
+    movements:
+    - [1801,989]
+    - [1787,988]
+- Enter .npc(Impa)’s hut and mash through the dialog:
+    comment: When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B)
+- Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
+    comment: Keep this one unequipped, so that it never gets damaged
+    movements:
+    - [1784,994]
+    - [1799,1011]
+- .wb(Windbomb) up to the .loc(Great Fairy Fountain):
+    movements:
+    - [1888,924]
+    - [1971,868]
+- "Grab 3 of each of: .item(Fairies), .item(Blue Nightshade), .item(Endura Carrot)":
+    comment: Grabbing the .item(fairies) first will save a D&P later
+- Bomb the tree by the rock:
+    markers:
+    - at: [1959,855]
+    comment: This prevents lag that would stifle an upcoming windbomb
+- .wb(Windbomb) over the cliffs and east to the Korok puzzle trees:
+    movements:
+      - to: [1960,855]
+        warp: true
+      - [2052,772]
+      - [2125,685]
+- Bomb the nearest tree and pick up .bold(one) .item(Apple):
+    comment: Pick up more and you may accidentally solve the puzzle!
+- .blss(BLSS) to the .loc(blue flame furnace) at .loc(Hateno Village):
+    movements:
+      - [2716,1127]
+      - [2668,1480]
+      - [3443,1983]
+- .glitch(Weapon smuggle) your .item(Torch) lit with the blue flame
+- Climb on top of the furnace, stand at the edge, and aim your bow at this spot:
+    markers:
+    - at: [3467.5,1993.4]
+- .wb(Windbomb) towards the .loc(Hateno Ancient Tech Lab):
+    comment: Axis-align Link before detonating the round bomb
+    movements:
+      - [3639.5,2141]
+- Light the furnace at the .loc(Hateno Ancient Tech Lab):
+    movements:
+      - [3713,2073]
+      - [3753.5,2056]
+      - [3790.5,2082.5]
+      - [3788,2120.5]
+    comment: Grab .item(Apples) from the trees if you have less than 3
+- Talk to .npc(Purah), gain missing runes, show her a photo of herself
+- Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
+- Ensure .item(Fairies) are in .tab(Materials) slot 1
+- Ensure everything is unequipped
+- .milestone(Manually save)
