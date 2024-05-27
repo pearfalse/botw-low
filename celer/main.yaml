@@ -11,6 +11,9 @@
 #   - Complete plateau, recover a memory, perform Inventory Transfer
 #   - Apply a Moon Jump Wrong Warp to IT autosave
 #   - Beat game with wrong-warped file
+- Prep:
+  - Ensure that the Normal Mode manual save is in physical slot 0:
+      comment: Explanation TODO
 - Great Plateau, first run:
   - use: ./parts/plat1.yaml
 - Kakariko Village, part 1:
@@ -28,11 +31,8 @@
 - Ganon 2 prep:
   - use: ./parts/ems-castle.yaml
 - Ganon 2:
-  - Eat slate and medallion,
-  - Beat Blights and Calamity
-  - Watch memory in DBG fight
-  - Reduce inventory
-  - Ensure corrupted BoL is not equipped
-  - Finish DBG
+  - use: ./parts/ganon2.yaml
+- Make the NG+ file:
+  - use: ./parts/make-ng-plus.yaml
 - Final Run:
   - Beat the game

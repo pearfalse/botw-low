@@ -1,0 +1,57 @@
+- Continue any file:
+    color: "#bf4"
+- Skip the opening cutscene without .enemy(killing your run):
+    notes:
+    - "The .loc(Shrine of Resurrection) assets aren’t fully loaded in when they should be. If you skip the cutscene ASAP, there’s a chance Link’s character model falls into a failsafe trigger underneath the SoR floor for the .item(Sheikah Slate) pickup cutscene. If this happens, your run is .enemy(dead). Here’s the fastest, most consistent way to avoid that:"
+    - As soon as you can skip, start pressing the X button .bold(only). You do not need to mash, but without this, the game will take away your ability to skip it at all.
+    - When the swirl patterns appear behind Link in the next shot, press +.
+    - I’ve never had this strategy fail, but no guarantees here. If in doubt, don’t skip the cutscene at all and take the time loss.
+- Wait for the autosave
+- Open the options and set them up again:
+    notes:
+    - One weird side-effect of .glitch(inventory transfer) (strictly speaking, of the .glitch(1970 save)) is that your options will be reset to default. Reapply anything you want.
+- Reload the earliest horseback autosave:
+    notes: ["It’s the one before the Mounted Archery Camp autosave."]
+- Warp to the .loc(Travel Medallion):
+    movements:
+      - to: [1871.5,914.5]
+        warp: true
+    icon: tm
+- .blss(BLSS) to .loc(Hyrule Castle):
+    movements:
+    - [1835,935.8]
+    - [1809.5,922.6]
+    - [1788,843]
+    - [-67.5,-850]
+- .wb(Windbomb) up to the .loc(Sanctum):
+    comment: Approach the location tag grounded; do not start the Blight fights
+    movements:
+    - [-185.5,-1000]
+    - [-220,-1026]
+- Reload the autosave at the .loc(Mounted Archery Camp)
+- Talk to .npc(Jini) on horseback to start the minigame:
+    comment: "Dialog options: .dialog(A) .dialog(A) .dialog(B) .dialog(A)"
+- Use the wild horses to activate .glitch(Moon Jump):
+    markers:
+    - at: [-271,3661]
+- Reload the autosave at the .loc(Sanctum):
+    movements:
+    - to: [-220,-1026]
+      warp: true
+- Glide out of the .loc(Hyrule Castle) area to restore the overworld map:
+    notes:
+      - To get in to the gliding state, jump several metres off the ground, chain a backflip and 1H jump-attack, and open the glider.
+    movements:
+    - [-185,-1008]
+    - [48.5,-1029]
+- Warp to the .loc(Travel Medallion):
+    comment: to set up a wrong warp
+    movements:
+      - to: [1871.5,914.5]
+        warp: true
+    icon: tm
+- Unequip everything
+- Load the .glitch(inventory transfer) autosave and manually save:
+    comment: without syncing
+- .milestone(Close and reopen the game)
+
