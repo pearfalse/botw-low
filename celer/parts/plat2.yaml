@@ -1,0 +1,11 @@
+- Know what the deal is:
+    comment: You can’t reload to fix mistakes, but you can place the .item(Travel Medallion) and warp to it to part-reset the world.
+    color: "#e4a"
+- Get the .item(Sheikah Slate) and .glitch(Star)
+- Complete the Great Plateau:
+    vars:
+      - plat: 2
+    comment: More detailed instructions may follow soon. You’re free to do the .wb(Magnesis windbomb) this time.
+    movements:
+      - to: [-812,1971]
+        warp: true

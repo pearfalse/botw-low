@@ -23,10 +23,8 @@
   - use: ./parts/castle1.yaml
 - Horsing Around:
   - use: ./parts/honse.yaml
-- Memory Storage:
-  - Do MS, new game plat
-- Recover Memory:
-  - Recover memory "Revali’s Flap"
+- Great Plateau, second run:
+  - use: ./parts/plat2.yaml
 - Ganon 2:
   - Eat slate and medallion,
   - Beat Blights and Calamity
