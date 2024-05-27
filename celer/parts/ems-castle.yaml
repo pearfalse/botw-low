@@ -1,0 +1,51 @@
+- .blss(BLSS) to near .loc(Shae Loya Shrine):
+    movements:
+    - [-1860,-279]
+    - [-2906,-475]
+    - [-2887,-497.5]
+- .wb(Windbomb) to high cliff edge opposite, and place the .item(Travel Medallion):
+    movements:
+    - [-2849.25,-636]
+    icon: tm
+- .blss(BLSS) into Rito Village:
+    movements:
+    - [-3263,-1067.5]
+    - [-3685,-1813]
+    - [-3635,-1832.5]
+    note: You can launch off one of the ore patches, but it's finicky
+- Talk to .npc(Kaneli) to get the .quest(Divine Beast Vah Medoh) quest
+- Talk to .npc(Saki) to recover the .quest(Revali’s Flap) memory:
+    coord: [-3610,-1818.7]
+- Glide down to the .npc(Goddess Statue) and redeem your .item(Spirit Orbs) for either .item(essence):
+    coord: [-3604.875,-1802.3]
+- Warp back to the .loc(Travel Medallion):
+    movements:
+      - to: [-2849.25,-636]
+        warp: true
+    icon: tm
+- BLSS to the castle .loc(Sanctum), SW entrance:
+    comment: There is a lot of .enemy(malice) here, which will be invisible if you get there before it loads in
+- Place the .item(Travel Medallion) here:
+    movements:
+    - [-307,-1006]
+    icon: tm
+- .wb(Windbomb) to the .loc(Dining Hall):
+    coord: [-97,-833]
+- Kill the .enemy(Black Moblins)
+- Collect enough materials to fill one page of your .tab(Materials) tab
+- Bomb the cracked wall and kill the .enemy(Black Lizalfos) behind it:
+    movements:
+    - [-158.75,-891.3]
+    - [-152,-898.1]
+- Take its .item(boomerang), .item(shield), and any two distinct .item(monster parts)
+- Cook one food item into a meal to unlock the .tab(Food) tab:
+    movements:
+    - [-158.75,-891.3]
+    - [-128.5,-853]
+    - [-149.75,-816]
+- .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate):
+    note: No, this won't remove it from the world.
+- Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion)
+- Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights:
+    notes:
+    - There's no known .glitch(Windblight skip) setup with the Bow of Light; usual trajectories don't work.

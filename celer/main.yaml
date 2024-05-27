@@ -25,6 +25,8 @@
   - use: ./parts/honse.yaml
 - Great Plateau, second run:
   - use: ./parts/plat2.yaml
+- Ganon 2 prep:
+  - use: ./parts/ems-castle.yaml
 - Ganon 2:
   - Eat slate and medallion,
   - Beat Blights and Calamity

@@ -6,6 +6,10 @@ route:
 config:
 - use: Pistonight/celer-presets/botw/map.yaml
 - plugins:
+  - use: variables
+    with:
+      init:
+        plat: 1
   - use: link
 - tags:
     blss:
