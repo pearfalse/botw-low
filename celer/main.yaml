@@ -21,10 +21,8 @@
   - use: ./parts/kakariko2.yaml
 - Hyrule Castle, part 1:
   - use: ./parts/castle1.yaml
-- Hyrule Castle, part 2:
-  - Beat Blights and Calamity, get BoL
 - Horsing Around:
-  - Head to MAC with 0x fairy
+  - use: ./parts/honse.yaml
 - Memory Storage:
   - Do MS, new game plat
 - Recover Memory:
