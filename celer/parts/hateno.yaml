@@ -16,7 +16,6 @@
 - Talk to .npc(Purah), gain missing runes, show her a photo of herself:
     movements:
       - [3775,2124.5]
-      - push
 - Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
 - Drop any Plateau healing materials:
     comment: likely .item(Spicy Pepper), .item(Hylian Shroom)

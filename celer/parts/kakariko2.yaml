@@ -14,7 +14,7 @@
     - [1784,994]
     - [1797,1012]
 - .glitch(Entangle) .term(Drop) prompts from both .item(shields) to drop the .item(Sheikah Slate) and .item(Paraglider):
-    comment: For a micro time save, cook them into one of the meals
+    comment: For a micro time save, cook them into one of the meals in the previous step
 - Place the .item(Travel Medallion):
     coord: [1871.5,914.5]
     comment: You don't need to be precise; this location is just usually where my windbomb lands
