@@ -1,16 +1,16 @@
-- Place the .item(Travel Medallion) here:
+- _TM::Set<-812,1971>:
     comment: in case the next BLSS fails
-    icon: tm
     notes: ["This is only possible immediately after getting the paraglider from the king, and without leaving the room."]
 - .blss(BLSS) to near .loc(Shae Loya Shrine):
+    comment: MIND THE TREES
     movements:
     - [-1860,-279]
     - [-2906,-475]
     - [-2887,-497.5]
-- .wb(Windbomb) to high cliff edge opposite, and place the .item(Travel Medallion):
+- .wb(Windbomb) to high cliff edge opposite:
     movements:
     - [-2849.25,-636]
-    icon: tm
+- _TM::SetHere
 - .blss(BLSS) into Rito Village:
     movements:
     - [-3263,-1067.5]
@@ -18,21 +18,16 @@
     - [-3635,-1832.5]
     notes: ["You can launch off one of the ore patches, but it’s finicky."]
 - Talk to .npc(Kaneli) to get the .quest(Divine Beast Vah Medoh) quest
-- Talk to .npc(Saki) to recover the .quest(Revali’s Flap) memory:
+- Talk to .npc(Saki) and recover the .milestone(Revali’s Flap) memory:
     coord: [-3610,-1818.7]
+    counter: .split-low(:<)
+    split-name: ":<"
 - Glide down to the .npc(Goddess Statue) and redeem your .item(Spirit Orbs) for either .item(essence):
     coord: [-3604.875,-1802.3]
-- Warp back to the .loc(Travel Medallion):
-    movements:
-      - to: [-2849.25,-636]
-        warp: true
-    icon: tm
+- _TM::Warp<-2849.25,-636>
 - BLSS to the castle .loc(Sanctum), SW entrance:
     comment: There is a lot of .enemy(malice) here, which will be invisible if you get there before it loads in
-- Place the .item(Travel Medallion) here:
-    movements:
-    - [-307,-1006]
-    icon: tm
+- _TM::Set<-307,-1006>
 - .wb(Windbomb) to the .loc(Dining Hall):
     coord: [-97,-833]
 - Kill the .enemy(Black Moblins)
@@ -45,10 +40,8 @@
 - Cook one food item into a meal to unlock the .tab(Food) tab:
     coord: [-149.75,-816]
 - .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate)
-- Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion):
-    movements:
-      - to: [-307,-1006]
-        warp: true
+- _TM::Warp<-307,-1006>:
+    text: Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion)
 - Set up a .glitch(skew bounce):
     notes:
       - Equip a 1H weapon, bow, and shield, and climb above the Sanctum entrance.

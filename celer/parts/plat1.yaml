@@ -1,45 +1,37 @@
-- Clip out of SoR, head to Bokoblin camp near ToT:
-    coord: [-949,1954]
-    color: "#6af"
-    comment: "Consider .item(Spicy Peppers) for upcoming .enemy(cold area) and .wb(windbombs)"
-- Obtain .item(Traveler’s Bow), set skew:
-    movements:
-    - [-933,1990]
-    - [-889,1991]
-    - [-822,1977]
-- .blss(BLSS) to Bombs shrine:
-    coord: [-447,1990]
-- Complete shrine:
-    icon: shrine
-- Complete Old Man dialog:
-    comment: "Fastest options are .dialog(2), .dialog(1), .dialog(1), .dialog(2)"
-- .blss(BLSS) to Magnesis shrine:
-    coord: [-672,1513]
-    color: "#b22"
-- Complete shrine:
-    icon: shrine
-    notes: ["Do not windbomb; get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."]
-- .blss(BLSS) to south-east tree grove:
-    movements:
-    - [-656,1915]
-    - [-856,2276]
-    color: "#cc5"
-- .wb(Windbomb) up to Stasis shrine:
-    movements:
-    - [-943,2296]
-    - [-933,2319]
-- Complete shrine:
-    icon: shrine
-- Climb and .blss(BLSS) to Cryonis shrine:
-    movements:
-    - [-976,2288]
-    - [-1008,2272]
-    - [-1047,2142]
-    - [-1405,1981]
-    - [-1435,1991]
-    color: "#6cf"
-- Complete shrine:
-    icon: shrine
-- Return to ToT for .milestone(Paraglider):
-    coord: [-812,1971]
+- _Plat::Early0
+- _Plat::Early1
+- _Plat::Early2
+- _Plat::Early3
+- _Plat::Early4:
+    comment: "For health restoration in cold area, and for two post-plat .wb(windbombs)"
+- _Plat::Early5
+- _Plat::Early6
+- _Plat::Early7
+- _Plat::Early8
+- _Plat::Early9
+- _Plat::EarlyA
+- _Shrine::JaBaij:
+    counter: .split-low(B1)
+    split-name: Bombs 1
+- _Plat::Mag0
+- _Plat::Mag1
+- _Shrine::OmanAu:
+    counter: .split-low(M1)
+    comment: No .wb(windbomb)!
+    notes: "Get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."
+    split-name: Magnesis 1
+- _Plat::Stas0
+- _Plat::Stas1
+- _Shrine::OwaDaim:
+    counter: .split-low(S1)
+    split-name: Stasis 1
+- _Plat::Cryo0<Traveler's Bow>
+- _Plat::Cryo1
+- _Shrine::KehNamut:
+    counter: .split-low(C1)
+    split-name: Cryonis 1
+- _Plat::Para0:
     color: "#2c8"
+- _Plat::Para1:
+    counter: .split-low(P1)
+    split-name: Paraglider 1

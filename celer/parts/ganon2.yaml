@@ -2,6 +2,8 @@
     notes:
     - There’s no known .glitch(Windblight skip) setup with the Bow of Light.
     coord: [-290,-1024]
+    counter: .split-low(S2)
+    split-name: Sanctum 2
 - Defeat .enemy(Windblight Ganon):
     comment: Stand in the stone dais when finishing phase 1
     notes: ["This is an AI manip that’ll prevent it starting phase 2 with a teleport."]
@@ -9,6 +11,8 @@
     notes: ["These fights are 100% identical to the first time, including the possible one-shot on .enemy(Fireblight)."]
 - Defeat .enemy(Thunderblight Ganon):
     comment: Use the .item(Boomerang) in phase 1
+    counter: .split-low(B2)
+    split-name: Blights 2
 - Defeat .enemy(Calamity Ganon):
     notes:
     - In phase 2, after breaking its shield with a parry, NSJ to activate the .glitch(skew bounce). This gives you enough height to enter bullet time and headshot Calamity.
@@ -25,3 +29,5 @@
     comment: Keep only the .item(Lizal Tri-Boomerang), 2 .item(Bows of Light), the .item(Steel Lizal Shield), and .item(Paraglider)
 - Finish the .enemy(Dark Beast Ganon) fight:
     comment: Keep the second .item(Bow of Light) equipped
+    counter: .split-low(DBG1)
+    split-name: Dark Beast 1

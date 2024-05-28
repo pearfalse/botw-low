@@ -1,0 +1,83 @@
+presets:
+  _Plat:
+    Early0:
+      text: Pick up the .item(Sheikah Slate)
+      coord: [-1125,1903.1]
+      icon: item-slate
+    Early1:
+      text: Clip out of .loc(Shrine of Resurrection)
+      movements:
+      - [-1099.75,1927.6]
+      - [-1006.5,1948.6]
+    Early2:
+      text: Take .item(Pot Lid)
+      coord: [-952.3, 1959.4]
+      icon: item-pot-lid
+    Early3:
+      text: Take .item(Boko Spear)
+      coord: [-943.3, 1952.5]
+      icon: item-boko-spear
+    Early4:
+      text: Take .item(Spicy Peppers)
+      coord: [-964.5, 1953.2]
+      icon: item-spicy-pepper
+    Early5:
+      text: Shield surf to Zelda dialog
+      movements:
+      - [-930.75,1976.9]
+      - [-911.5,1991.6]
+      - [-891.75,1989.9]
+      - [-876,1984.3]
+    Early6:
+      text: Set .glitch(skew)
+      coord: [-832.9,1968]
+    Early7:
+      text: .glitch(Shield clip) through window
+    Early8:
+      text: .item(Traveler’s Bow)
+      coord: [-832.4,1963.1]
+      icon: chest
+    Early9:
+      text: .item(Arrow ×5) from pot
+      coord: [-821.73, 1963.27]
+      icon: item-arrow
+    EarlyA:
+      text: .blss(BLSS) to Bombs shrine
+      movements:
+      - [-807.125,2000.2]
+      - [-447,1990]
+    Mag0:
+      text: Complete Old Man dialog
+      comment: "Fastest options are .dialog(2) .dialog(1) .dialog(1) .dialog(2)"
+    Mag1:
+      text: .blss(BLSS) to Magnesis shrine
+      coord: [-668.75,1520.8]
+    Stas0:
+      text: .blss(BLSS) to south-east tree grove
+      movements:
+      - [-656,1915]
+      - [-856,2276]
+    Stas1:
+      text: .wb(Windbomb) up to Stasis shrine
+      movements:
+      - [-943,2296]
+    Cryo0:
+      text: Stasis launch up to .enemy(cold area)
+      comment: 8× with .item(Boko Spear), 1× with .item($(0))
+      movements:
+      - [-944,2327]
+      - [-976,2288]
+    Cryo1:
+      text: .blss(BLSS) to Cryonis shrine
+      movements:
+      - [-1008,2272]
+      - [-1047,2142]
+      - [-1405,1981]
+      - [-1435,1991]
+    Para0:
+      text: .blss(BLSS) to the .loc(Temple of Time)
+      coord: [-814,1978.6]
+    Para1:
+      text: Obtain the .milestone(Paraglider)
+      coord: [-812,1971]
+      split-type: split-low

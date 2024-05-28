@@ -1,0 +1,15 @@
+- What?:
+    notes:
+      - Part of the low% route involves performing .glitch(inventory transfer). This brings along another glitch, known as the .glitch(1970 save). In most cases, this will .bold(permanently) destroy one of your Normal Mode autosaves, replacing it with a second manual save.
+      - The autosave slot that gets overwritten is the very first one that was ever made on that profile. By ensuring that the first ever save slot is the Normal Mode manual save, we stop the .glitch(1970 save) from causing any harm.
+      - This only needs to be done once per profile, and starting a new game won’t undo it. You will need to destroy all existing save data first, though, so confine this to a separate speedrun profile.
+- .enemy(Delete) all existing BotW save data for the profile
+- Start up BotW on that profile:
+    comment: You’ll immediately be dropped into a new Normal Mode game
+- Pause before the first autosave occurs:
+    notes: ["If the game autosaves, start again from the top"]
+- Change any .tab(Options) to non-default settings:
+    comment: This re-enables the .tab(Save) button
+- _NewGame:
+    text: Manually save the game
+    notes: ["Done. You can now .tab(Quit to Title) and start a new game as normal."]

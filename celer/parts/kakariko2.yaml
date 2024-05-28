@@ -14,9 +14,7 @@
     - [1784,994]
     - [1797,1012]
 - .glitch(Entangle) .term(Drop) prompts from both .item(shields) to drop the .item(Sheikah Slate) and .item(Paraglider)
-- Place the .item(Travel Medallion) about here:
-    coord: [1871.5,914.5]
-    icon: tm
+- _TM::Set<1871.5,914.5>
 - Bomb the tree by .loc(Ta'loh Naeg Shrine) to create a BLSS launch point:
     coord: [1835,935.8]
 - .blss(BLSS) to the edge of .loc(Hyrule Castle):
@@ -27,4 +25,3 @@
       - [1809.5,922.6]
       - [1788,843]
       - [-38.5,-877.7]
-    color: "#820"

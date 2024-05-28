@@ -16,6 +16,8 @@
     - [1787,988]
 - Enter .npc(Impa)’s hut and mash through the .dialog(dialog):
     notes: ["When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B) (.quote(“Understood.”))."]
+    counter: .split-low(HL)
+    split-name: History Lesson
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
     comment: Keep this one unequipped, so that it never gets damaged
     movements:

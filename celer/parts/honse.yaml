@@ -9,39 +9,60 @@
 - Sell all .item(Roasted Endura Carrots) to .npc(Beedle)
 - Prepare inventory for more .glitch(corruption):
     comment: See .glitch(ist3.txt)
-- Save, reload, ride horse to the .loc(Mounted Archery Camp):
+    counter: .var(ist-section)
+- _ManualSave
+- Reload manual save
+- Ride horse towards the .loc(Mounted Archery Camp):
+    comment: Don’t sync! Stop riding at first autosave
     notes:
     - Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the last reload.
     - Autosave occurs roundabout the marked point.
     movements:
-    - [457,3459.5]
+    - [484.25,3447.6]
+    - [402.25,3531.4]
+    - [344.25,3528.1]
+    - [293.25,3458.9]
     - [247.5,3509]
-    - [-185.5,3496]
+    - [193.25,3520.4]
+    - [154, 3394.5]
     markers:
     - at: [154,3394.5]
-- Get autosave at the .loc(Mounted Archery Camp)
+- Reload autosave twice:
+    comment: See .glitch(ist3.txt)
+- Ensure inventory contains .item(no arrows) and a .glitch(leading 0× stack) of .item(Fairies):
+    comment: Checking will sync
+    counter: .ist-section(E)
+- Get autosave at the .loc(Mounted Archery Camp):
+    movements:
+    - [135,3332.6]
+    - [99,3301.6]
+    - [42.5,3343.1]
+    - [-26,3360.1]
+    - [-138,3431.1]
+    - [-185.5,3496]
+    counter: .split-low(h.)
+    split-name: honse
 - .milestone(Close and reopen the game)
 - Continue from the most recent autosave
 - Get .glitch(Memory Storage):
     comment: Use the same autosave in the setup
 - Continue from the second-most recent autosave
-- Warp to the .item(Travel Medallion) at .loc(Kakariko Village):
-    movements:
-    - to: [1871.5,914.5]
-      warp: true
-    icon: tm
+- _TM::Warp<1871.5,914.5>
 - Grab 2× .item(Sneaky River Snail):
     coord: [1885.5,1001.8]
-- Grab the .item(Ironshroom):
+- Grab 1× .item(Ironshroom):
     coord: [1836,981.9]
 - Grab 2× .item(Apple) from the Korok trays:
     coord: [1805.75,992.5]
     comment: You don’t need to worry about avoiding .npc(Cado) and .npc(Dorian) this time
-- Head into .loc(Trissa's General Store) and make .glitch(3 offset):
+- Head into .loc(Trissa’s General Store) and make .glitch(3 offset):
     comment: Buy 2 .item(Swift Carrot) to get enough materials
     movements:
       - [1813.75,1006.3]
       - [1794,1029.5]
 - Get correct items into offset slots:
-    comment: Eat all food, drop all non-fairy materials, drop all shields, ensure the .item(Bow of Light) is the last bow in the tab
-- .milestone(Start a new game) in .glitch(Extended Memory Storage)
+    comment: .item(Bow of Light), 3–10× .item(Fairy), .item(Travel Medallion)
+- _NewGame:
+    text: .milestone(Start a new game) in .glitch(Extended Memory Storage)
+    counter: .split-low(EMS)
+    split-name: EMS New Game

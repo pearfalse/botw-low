@@ -2,15 +2,42 @@
     notes:
     - You’re in .glitch(Extended Memory Storage). You can’t save or load, and dying kills your run.
     - Although you can’t reload to fix mistakes, you can place the .item(Travel Medallion) and warp to it to part-reset the world (e.g. if the .enemy(Bokoblins) beat you to the .item(Boko Spear)).
-    color: "#e4a"
-- Get the .item(Sheikah Slate) and .glitch(Star)
-- Complete the Great Plateau:
-    vars:
-      - plat: 2
-    notes:
-    - Despite the presence of .item(fairies), always pick up at least one .item(Spicy Pepper) or .item(Hylian Shroom) to unlock the .tab(Materials) tab.
     - If you run low on fairies, you can .glitch(entangle) a .quote(Drop) prompt from your first weapon onto them five times to grow the stack.
-    - You’re free to do the .wb(Magnesis windbomb) this time.
-    movements:
-      - to: [-812,1971]
-        warp: true
+    color: "#e4a"
+- _Plat::Early0
+- Use .glitch(phantom tabs) to reobtain .glitch(Star)
+- _Plat::Early1
+- _Plat::Early2
+- _Plat::Early3
+- _Plat::Early4:
+    comment: "to unlock the .tab(Materials) tab"
+- _Plat::Early5
+- _Plat::Early6
+- _Plat::Early7
+- _Plat::Early8
+- _Plat::Early9
+- _Plat::EarlyA
+- _Shrine::JaBaij:
+    counter: .split-low(B2)
+    split-name: Bombs 2
+- _Plat::Mag0
+- _Plat::Mag1
+- _Shrine::OmanAu:
+    counter: .split-low(M2)
+    split-name: Magnesis 2
+- _Plat::Stas0
+- _Plat::Stas1
+- _Shrine::OwaDaim:
+    counter: .split-low(S2)
+    split-name: Stasis 2
+- _Plat::Cryo0<Bow of Light>
+- _Plat::Cryo1
+- _Shrine::KehNamut:
+    counter: .split-low(C2)
+    split-name: Cryonis 2
+- _Plat::Para0:
+    color: "#64f"
+- _Plat::Para1:
+    counter: .split-low(P2)
+    split-name: Paraglider 2
+

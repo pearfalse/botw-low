@@ -13,6 +13,8 @@
       - [3790.5,2082.5]
       - [3788,2120.5]
     comment: Grab .item(Apples) from the trees if you have less than 3
+    counter: .split-low(TL)
+    split-name: Tech Lab
 - Talk to .npc(Purah), gain missing runes, show her a photo of herself:
     movements:
       - [3775,2124.5]
@@ -20,19 +22,21 @@
 - Drop any Plateau healing materials:
     comment: likely .item(Spicy Pepper), .item(Hylian Shroom)
 - Ensure .item(Fairies) are in .tab(Materials) slot 1
-- Ensure everything is unequipped
-- .milestone(Manually save):
-    movements: [push]
-- .wb(Windbomb) down to .loc(Pruce's General Store):
+- Ensure shields are unequipped
+- .milestone(Manually save)
+- .wb(Windbomb) down to .loc(Pruce’s General Store):
     movements:
       - [3804.5,2106]
       - [3462.5,2122]
       - [3361.5,2156]
 - Create .glitch(8 offset) using .npc(Pruce) and gathered materials:
-    comment: See IST script .glitch(ist1.txt) for setup; follow that and this together until first .milestone(manual save) reload
+    comment: See IST script .glitch(ist1.txt) for setup
+    counter: .var(ist-section)
 - Reload .milestone(manual save):
-    notes: ["It doesn't matter what you transfer; this is just slightly quicker than warping."]
-    movements: [pop, push]
+    notes: "The arrow stack must not transfer."
+    movements:
+      - to: [3775,2124.5]
+        warp: true
 - .blss(BLSS) to .loc(Lomei Labyrinth Island):
     color: "#85e"
     movements:
@@ -41,15 +45,15 @@
       - [4800,1502]
       - [4802,-1376]
       - [4627.5,-3687.4]
-      - [4633,-3687.4]
-      - [4633,-3731.4]
-      - [4677.25,-3731.4]
-      - [4677.25,-3687.4]
+      - [4638,-3687.4]
+      - [4638,-3727.4]
+      - [4672.75,-3727.4]
+      - [4672.75,-3687.4]
       - [4655.5,-3687.4]
-      - [4655.5,-3706]
 - Run up the maze exit path to .loc(Tu Ka'loh Shrine)
 - .glitch(Extended Shield Clip) into .loc(Tu Ka'loh Shrine):
     icon: shrine
+    coord: [4655.5,-3706]
 - Open the chest for a .item(Barbarian Helm):
     comment: .bold(Do not) complete the shrine! Leave by the elevator
 - Head into the basement and approach the .item(Travel Medallion) chest:
@@ -62,13 +66,17 @@
     - Avoid brushing up against the southern wall, or Link might take fall damage from a Guardian Stalker leg that can clip through the other side.
 - Stand in front of the chest and prepare the inventory:
     comment: See .glitch(IST script) alongside this and future steps
-- Open the .milestone(Travel Medallion) chest and reload
+- Open the .milestone(Travel Medallion) chest and reload:
+    icon: chest
+    movements:
+    - to: [3775,2124.5]
+      warp: true
 - Make desynced manual save:
-    notes: ["If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."]
+    notes: "If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."
+    counter: .split-low(AF)
 - Use .glitch(phantom Armor tab) to get .glitch(Star):
     comment: AKA .quote(Star Icon Invalid Slot), cursor glitch, and other names
-- Prepare .tab(Materials) tab and reload manual save:
-    movements:
-      - pop
+- Prepare .tab(Materials) tab and reload manual save
 - Combine 3 .item(Ancient Screws) into one slot and spend them on the .milestone(Sheikah Sensor +):
+    counter: .ist-section(E)
     color: "#f49"

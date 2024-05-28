@@ -1,20 +1,6 @@
-# - Overview:
-#   - Start out like Best Ending
-#   - Make 8 offset, obtain Travel Medallion and Star
-#   - Set up manual save at Hyrule Castle
-#   - Do first half of WMC in an autosave branch at Korok Forest with a broken Master Sword
-#   - Transfer Roasted Endura Carrot with smuggled recipe back to manual save, finish WMC to corrupt Royal Guard's Bow
-#   - Beat Blights and Calamity, steal Bow of Light
-#   - Corrupt BoL with same WMC recipe
-#   - Head to Mounted Archery Camp with a registered horse
-#   - Perform Memory Storage, transfer 3 items to a new game
-#   - Complete plateau, recover a memory, perform Inventory Transfer
-#   - Apply a Moon Jump Wrong Warp to IT autosave
-#   - Beat game with wrong-warped file
-- Prep:
-  - Ensure that the Normal Mode manual save is in physical slot 0:
-      comment: Explanation TODO
-- Great Plateau, first run:
+- Profile Prep:
+  - use: ./parts/manual0.yaml
+- Great Plateau 1:
   - use: ./parts/plat1.yaml
 - Kakariko Village, part 1:
   - use: ./parts/kakariko1.yaml
@@ -24,9 +10,9 @@
   - use: ./parts/kakariko2.yaml
 - WMC & Ganon 1:
   - use: ./parts/castle1.yaml
-- Horsing Around:
+- Horsin’ Around:
   - use: ./parts/honse.yaml
-- Great Plateau, second run:
+- Great Plateau 2:
   - use: ./parts/plat2.yaml
 - Ganon 2 prep:
   - use: ./parts/ems-castle.yaml

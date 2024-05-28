@@ -1,16 +1,20 @@
-title: Low%
+title: BotW low% BMS8
 version: 2.0
 route:
   use: ./celer/main.yaml
 
 config:
-- use: Pistonight/celer-presets/botw/map.yaml
+- use: Pistonight/celer-presets/botw/mini.yaml
+- use: Pistonight/celer-presets/botw/parts/memories.yaml
+- use: Pistonight/celer-presets/botw/parts/shrines.yaml
+- use: Pistonight/celer-presets/botw/parts/warps.yaml
+- use: ./celer/platN.yaml
 - plugins:
+  - use: link
   - use: variables
     with:
       init:
-        plat: 1
-  - use: link
+        ist-section: 0
 - tags:
     blss:
       color: "#4bb"
@@ -19,11 +23,17 @@ config:
     dialog:
       color: "#c86"
     item:
-      color: "#fc3"
+      color:
+        light: "#861"
+        dark: "#fc3"
     enemy:
-      color: "#f43"
+      color:
+        light: "#a54"
+        dark: "#f43"
     milestone:
-      color: "#3af"
+      color:
+        light: "#29b"
+        dark: "#3af"
     quest:
       includes: milestone
       italic: true
@@ -43,6 +53,56 @@ config:
       color: white
     s:
       strikethrough: true
+    ist-section:
+      background: "#f3c"
+      color: black
+      bold: true
+    split-low:
+      color: black
+      background: "#092"
+      split-type: Low% Milestones
 - icons:
     shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
     tm: https://icons.pistonite.org/icon/location.travel_medallion.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+
+    item-boko-spear: https://ist.itntpiston.app/assets/img/Weapon/BokoSpear.png
+    item-ms: https://ist.itntpiston.app/assets/img/Weapon/MasterSword.png
+    item-trav-bow: https://ist.itntpiston.app/assets/img/Bow/TravelersBow.png
+    item-rgb: https://ist.itntpiston.app/assets/img/Bow/RoyalGuardsBow.png
+    item-bol: https://ist.itntpiston.app/assets/img/Bow/BowOfLight.png
+    item-arrow: https://ist.itntpiston.app/assets/img/Arrow/NormalArrow.png
+    item-pot-lid: https://ist.itntpiston.app/assets/img/Shield/PotLid.png
+    item-spicy-pepper: https://ist.itntpiston.app/assets/img/Material/SpicyPepper.png
+    item-slate: https://ist.itntpiston.app/assets/img/Key/SheikahSlate.png
+
+- splits:
+  - split-low
+
+- presets:
+    NewGame:
+      vars:
+        counter-shrine: 0
+        tm-loc-x: 0
+        tm-loc-y: 0
+      movements:
+        - to: [-1129.5,1917.4]
+          warp: true
+    ManualSave:
+      text: .milestone(Manually save)
+    _TM:
+      SetHere:
+        text: Place the .item(Travel Medallion) here
+        icon: tm
+      Set:
+        presets: [_TM::SetHere]
+        coord: [$(0), $(1)]
+        vars:
+          tm-loc-x: $(0)
+          tm-loc-y: $(1)
+      Warp:
+        text: Warp to the .item(Travel Medallion)
+        movements:
+          - to: [$(0), $(1)]
+            warp: true
+        icon: tm

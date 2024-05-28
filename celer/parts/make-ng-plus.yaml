@@ -28,6 +28,8 @@
     movements:
     - [-185.5,-1000]
     - [-220,-1026]
+    counter: .split-low(S3)
+    split-name: Sanctum 3
 - Reload the autosave at the .loc(Mounted Archery Camp):
     movements:
     - to: [-185.5,3496]
@@ -57,5 +59,7 @@
 - Unequip everything
 - Load the .glitch(inventory transfer) autosave and manually save:
     comment: without syncing
+    counter: .split-low(WW)
+    split-name: Wrong Warp
 - .milestone(Close and reopen the game)
 

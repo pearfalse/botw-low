@@ -4,8 +4,11 @@
     - [-339.5,-960]
     - [-340.5,-995.6]
     notes: ["The section of wall in this launch point is perfectly ordinal-aligned, so if you can’t use the minimap to check your rotation, stand 45˚ to this edge."]
-- .milestone(Manually save) inside at bridge end height:
-    comment: Your torch .bold(must) be equipped
+- Stand inside on the floor above .loc(Princess Zelda’s Room)
+- Equip .item(Torch), unequip bows and shields
+- _ManualSave:
+    counter: .split-low(C1)
+    split-name: Castle 1
 - Climb onto the ceiling above your manual save location
 - .wb(Windbomb) to reach the outer structure of the Sanctum:
     movements:
@@ -13,15 +16,12 @@
     - [-333.5,-1089.9]
     - [-297.75,-1079.1]
     - [-285,-1103.4]
-    color: "#840"
     comment: Look for the eroded wall from the buttress into the central structure
 - .blss(BLSS) into .loc(Korok Forest):
     notes:
       - Use the collapsed edge on the very left-hand side to get the step-up animation.
       - Aim for the centre of the Deku Tree.
-    movements:
-    - [-281.5,-1141.9]
-    - [425.25,-2136.7]
+    coord: [425.25,-2136.7]
 - If you get taken by the void fog::
     notes: ["You’ll most likely respawn at the start of the .quest(Trial of Second Sight). .wb(Windbomb) NE from the Korok’s mound into .loc(Korok Forest)."]
     movements:
@@ -30,19 +30,27 @@
       warp: true
     - [406.25,-2082.5]
     - pop
+    color: "#840"
 - Cook the special meal and smuggle its recipe:
-    comment: This is 100% an .glitch(IST setup); see .glitch(ist2.txt)
-- Reload and transfer back into the .milestone(manual save)
+    color: "#f49"
+    comment: See .glitch(ist2.txt)
+    counter: .var(ist-section)
+- Reload and transfer back into the .milestone(manual save):
+    movements:
+    - to: [-340.5,-995.6]
+      warp: true
 - Distract the .enemy(Black Moblin):
     comment: Shoot an arrow at the marked spot
+    color: "#820"
     markers:
       - at: [-327.5,-987.5]
 - Sneakstrike the .enemy(Moblin) with the .item(Master Sword):
     comment: and take its .item(Edge of Duality)
-- Grab the .item(Royal Guard’s Bow) with Magnesis
+    icon: item-ms
+- Grab the .item(Royal Guard’s Bow) with Magnesis:
+    icon: item-rgb
 - Finish the .glitch(WMC setup) in Zelda’s room
 - .wb(Windbomb) to the SE .loc(Sanctum) entrance:
-    color: "#820"
     movements:
       - to: [-340.5,-995.6]
         warp: true
@@ -51,26 +59,33 @@
       - [-217,-1025.9]
 - Set up .glitch(Windblight Skip) while eating the .item(Mighty Mushroom Skewer):
     notes: ["You can use the .item(Edge of Duality) if your preferred setup needs a two-handed weapon."]
+    counter: .split-low(S1)
+    split-name: Sanctum 1
 - Defeat .enemy(Waterblight Ganon):
     notes:
     - Do a body shot (.bold(never) a headshot) with the corrupted .item(Royal Guard’s Bow) to do enough damage to immediately end the first phase. This is the general MO with Blight fights in this run.
-    - Stand within the stone dais in the centre of the room before finishing phase 2 to set up .enemy(Fireblight) an AI manip.
+    - Stand within the stone dais in the centre of the room before finishing phase 2 to set up a .enemy(Fireblight) AI manip.
 - Defeat .enemy(Fireblight Ganon):
-    notes: ["It’s possible to one-shot Fireblight. Shoot its head about 25% in from the edge at eye level and it’ll die before the phase change can happen."]
+    notes: "It’s possible to one-shot Fireblight. Shoot its head about 25% in from the edge at eye level and it’ll die before the phase change can happen."
 - Defeat .enemy(Thunderblight Ganon), phase 1:
-    notes: ["If you don’t get a perfect dodge, the .item(Master Sword) has enough durability left to break its shield. Shoot it once with the bow."]
+    notes: "If you don’t get a perfect dodge, the .item(Master Sword) has enough durability left to break its shield. Shoot it once with the bow."
 - Defeat .enemy(Thunderblight Ganon), phase 2 (Magnesis):
     notes:
     - It’s quicker to use Magnesis here.
     - Once it ragdolls away, immediately kill it with one arrow shot to skip phase 3.
+    counter: .split-low(B1)
+    split-name: Blights 1
 - Defeat .enemy(Calamity Ganon):
-    notes: ["If you can get a laser attack at the start of phase 2, you won’t need any more advanced strats."]
+    notes: "If you can get a laser attack at the start of phase 2, you won’t need any more advanced strats."
 - Pick up the .item(Bow of Light) and .glitch(transfer) it back to the manual save:
-    comment: Prepare for reload as per .glitch(ist2.txt)
+    icon: item-bol
+- .glitch(Corrupt) the .item(Bow of Light) with the same .glitch(WMC) recipe:
+    color: "#ec0"
     movements:
       - to: [-340.5,-995.6]
         warp: true
-- .glitch(Corrupt) the .item(Bow of Light) with the same .glitch(WMC) recipe:
-    color: "#ec0"
-- Recover the .quest(Father and Daughter) memory on the bridge:
-    coord: [-364.3,-995.5]
+    counter: .ist-section(E)
+- _Memory::HyruleCastle:
+    text: Recover the .milestone(memory) on the bridge
+    counter: .split-low(:O)
+    split-name: ":O"
