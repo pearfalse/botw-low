@@ -1,14 +1,14 @@
 init 1 boko spear [life=400] 1 torch 1 trav bow [life=2100,equip] 4 arrow [equip] 1 pot lid [life=400] 1 pot lid 1 ancient screw 3 fairy 3 blue night 3 silent p 3 end carrot 3 apple 1 slate 1 glider
 dnp 1 ancient screw
 save
-break 8 slots with 2 night 2 princess 2 end c 2 apple
-drop 1 anc screw
+break 8 slots with 3 night 3 princess 3 end c 3 apple 1 anc screw
+# any 3 mats will work
+pick up 1 ni 1 end c 1 apple
 reload
 get 1 barb
 # leave ancient screw, no scrap mats
 drop all fairy all blue ni all princess all hy shr all apple all end c
-drop 1 pot lid from slot 3
-drop 1 pot lid from slot 2
+drop 2 pot lid [life=400] 1 pot lid
 equip pot lid
 get trav m
 reload
