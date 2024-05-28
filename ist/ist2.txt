@@ -1,28 +1,29 @@
 init 1 boko sp [life=400] 1 torch [equip] 1 trav bow 4 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 3 end c 1 blue ni 1 apple 1 wood 3 fried wild [modifier=enduring] 1 medallion
 break 8 slots
-# bows MUST be unquipped, torch should be equipped
+# weapon/bow equip status MUST match
 save
 # enter KF, don't discover the shrine
 get 1 tree branch 1 forest spear
+# you can permanently drop these two:
+drop boko spear
 drop pot lid from slot 2
 # stay inside the deku tree to stop things despawning
-drop 1 boko spear 1 forest spear 1 torch 1 pot lid
+drop 1 forest spear 1 torch 1 pot lid
 # sell 1 for money, eat the other two
 sell all fried wild
 drop 1 apple
 get 1 baked apple
-drop 1 end c
-drop 2 end c
-# pick up and roast two of them; only pick one up from the pot edge
+drop all end c
+# pick up and roast all of them; only pick one up from the pot edge
 get 1 roast end c
 # entangle hold prompt from blue nightshade to REC; hold stack to 3
 write [life=3] to roast end c
 drop 1 blue ni 3 roast end c
 cook fried wild greens [modifier=sneaky,price=311,hp=112]
-# pick up the other REC
+# pick up another REC
 get 1 roast end c
 get 1 pot lid [life=3] 1 torch 1 forest sp
-# campfire glitch; bring a lit torch from the deku tree to the pedestal
+# campfire glitch; weapon smuggle a lit torch from the deku tree to the pedestal
 drop 1 wood 1 torch
 get 1 master sword
 drop all blue ni all end c all wood
@@ -95,6 +96,7 @@ eat 3 fried wild
 reload
 drop 1 roy g b 1 trav bow from slot 2
 save
+# once again, 0 food scrap
 eat 3 fried wild 1 mush sk
 reload
 # tada
