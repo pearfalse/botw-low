@@ -10,10 +10,10 @@ get 1 barb
 drop all fairy all blue ni all princess all hy shr all apple all end c
 drop 2 pot lid [life=400] 1 pot lid
 equip pot lid
+unequip trav bow
 get trav m
 reload
 shoot 1 arrow
-# note that corrupting the arrows is *not* a goal here
 save
 # from the first slot
 dnp 1 anc screw

@@ -1,14 +1,14 @@
-init 1 boko sp [life=400] 1 torch [equip] 1 trav bow 4 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 3 end c 1 blue ni 1 apple 1 wood 3 fried wild [modifier=enduring] 1 medallion
+init 1 boko sp [life=400] 1 torch [equip] 1 trav bow 2000 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 3 end c 1 blue ni 1 apple 1 wood 3 fried wild [modifier=enduring] 1 medallion
 break 8 slots
 # weapon/bow equip status MUST match
 save
 # enter KF, don't discover the shrine
-get 1 tree branch 1 forest spear
+get 1 tree branch 1 forest spear 1 forest shield
 # you can permanently drop these two:
 drop boko spear
 drop pot lid from slot 2
 # stay inside the deku tree to stop things despawning
-drop 1 forest spear 1 torch 1 pot lid
+drop 1 forest spear 1 torch 1 pot lid 1 forest shield
 # sell 1 for money, eat the other two
 sell all fried wild
 drop 1 apple
@@ -22,31 +22,34 @@ drop 1 blue ni 3 roast end c
 cook fried wild greens [modifier=sneaky,price=311,hp=112]
 # pick up another REC
 get 1 roast end c
-get 1 pot lid [life=3] 1 torch 1 forest sp
+get 1 pot lid [life=3] 1 torch 1 forest sp 1 forest sh
+# as part of weapon smuggle:
+unequip pot lid
 # campfire glitch; weapon smuggle a lit torch from the deku tree to the pedestal
 drop 1 wood 1 torch
 get 1 master sword
 drop all blue ni all end c all wood
 # head under large tree root, near Keo Ruug Shrine
-drop 1 trav bow 1 pot lid
-# equip MS normally, entangle tree branch equip to a material (fairy), jump attack 3x, equip MS normally and break it
+drop 1 trav bow 1 pot lid 1 forest shield
+# equip MS normally, entangle tree branch equip to a material (fairy), jump attack 4x
 write [life=0] to master sword
 drop tree branch
 get trav bow
 equip forest spear
 unequip trav bow
 save as A_Shrine
-eat 1 fried wild 1 roast end c
-get 1 tree branch 1 pot lid [life=3]
+eat 1 baked 1 fried wild 1 roast end c
+get 1 tree branch 1 forest sh 1 pot lid [life=3]
 dnp forest spear
-unequip forest spear
 equip trav bow
+equip pot lid
+unequip forest sp
+unequip forest sh
 reload A_Shrine
 # TOTS dialog CS will get this for you
 save as A_TOTS
-get forest shield
-reload A_TOTS
-eat all roast end all fried wild 1 baked
+eat all roast end all fried wild
+drop trav bow
 reload A_TOTS
 # move into the deku tree
 drop 1 forest spear 2 trav bow
@@ -57,27 +60,26 @@ write [life=4] to razorshroom
 drop all razorshroom
 get mush skew [modifier=mighty]
 eat fried wild
-get 2 trav bow [life=3]
+get 1 trav bow [life=3]
+unequip trav bow
 drop pot lid
-dnp forest shield
-# entangle FDS equip prompt onto MS
+# entangle TB equip prompt onto MS
 equip master
-drop trav bow
 reload
 equip master sword
 # distract and sneakstrike the black moblin
 get 1 roy g b 1 edge of
-unequip all bows
-equip forest shield
+equip roy g b
 drop all end carrot all blue ni all apple all wood
 drop trav bow from slot 2
 save
-# 1 food scrap
-eat 1 roast end c 2 fried wild 1 mush sk
-unequip forest shield
+# 0 food scrap
+eat all roast end c all mush sk all fried wild
+equip pot lid in slot 2
+unequip roy g b
 reload
 save
-# 3 food scrap
+# 4 food scrap
 eat 1 mush sk 1 roast end c
 reload
 eat all fried wild
@@ -90,11 +92,13 @@ eat mush sk
 shoot 12 arrows
 write [life=800] to roy g b
 get bow of light
-drop 2 pot lid 1 forest shield
+drop 2 pot lid 1 forest sh
 # 0 food scrap
 eat 3 fried wild
 reload
-drop 1 roy g b 1 trav bow from slot 2
+# if you couldn't reload from DBG with two shields: drop all bows right of the BoL, drop the first pot lid if you have 3, eat all meals, reload manual save again
+drop 1 roy g b from slot 2
+drop trav bow from slot 2
 save
 # once again, 0 food scrap
 eat 3 fried wild 1 mush sk
