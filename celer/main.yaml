@@ -1,5 +1,18 @@
 - Profile Prep:
   - use: ./parts/manual0.yaml
+- Counter Key:
+  - Split prompts look like this:
+      counter: .split-low(EX)
+  - IST script follow-along starts here:
+      counter: .ist-section(1)
+      comment: Follow the numbered IST script along with this route,
+  - until you see this:
+      counter: .ist-section(E)
+      comment: Stop following the IST script after this step
+  - Shrine progression counter:
+      counter: .counter-shrine(1)
+      comment: Only covers the 4 Plateau shrines
+      notes: And resets to 0 when starting EMS new game.
 - Great Plateau 1:
   - use: ./parts/plat1.yaml
 - Kakariko Village, part 1:
