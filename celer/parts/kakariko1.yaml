@@ -38,16 +38,17 @@
     - You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
 - Bomb the tree right by the large rock:
     markers:
-    - at: [1959,855]
+    - at: [1953,858.66]
 - Bomb it again to get a .item(bundle of Wood):
     notes: That tree was also a major source of lag for the upcoming windbomb
 - Stand on the tip of the large rock:
     comment: Face NE, slightly CCW
+    movements:
+      - to: [1958.2,858.7]
+        warp: true
     notes: LHS of Link's vision cone should line up with the LHS of the minimap North marker
 - .wb(Windbomb) over the cliffs:
     movements:
-      - to: [1960,855]
-        warp: true
       - [2052,772]
 - Run east to the Korok puzzle trees:
       coord: [2125,685]
