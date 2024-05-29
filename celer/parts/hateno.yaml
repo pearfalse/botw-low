@@ -24,8 +24,10 @@
 - Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
 - Drop any Plateau healing materials:
     comment: likely .item(Spicy Pepper), .item(Hylian Shroom)
-- Ensure .item(Fairies) are in .tab(Materials) slot 1
-- Ensure shields are unequipped
+- Ensure .item(Fairies) are in .tab(Materials) slot 1:
+    icon: item-fairy
+- Ensure .item(Traveler's Bow) is equipped and shields are unequipped:
+    icon: item-trav-bow
 - .milestone(Manually save)
 - Stand on the edge of the outcrop by the tree:
     coord: [3804.5,2106]

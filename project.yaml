@@ -74,6 +74,9 @@ config:
     item-arrow: https://ist.itntpiston.app/assets/img/Arrow/NormalArrow.png
     item-pot-lid: https://ist.itntpiston.app/assets/img/Shield/PotLid.png
     item-spicy-pepper: https://ist.itntpiston.app/assets/img/Material/SpicyPepper.png
+    item-fairy: https://ist.itntpiston.app/assets/img/Material/Fairy.png
+    item-endura-carrot: https://ist.itntpiston.app/assets/img/Material/EnduraCarrot.png
+    item-blue-nightshade: https://ist.itntpiston.app/assets/img/Material/BlueNightshade.png
     item-slate: https://ist.itntpiston.app/assets/img/Key/SheikahSlate.png
 
 - splits:

@@ -22,7 +22,7 @@
     counter: .split-low(HL)
     split-name: History Lesson
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
-    comment: Keep this one unequipped, so that it never gets damaged
+    comment: Keep this one undamaged and in slot 2
     movements:
     - [1784,994]
     - [1799,1011]
@@ -32,15 +32,18 @@
     movements:
     - [1888,924]
     - [1971,868]
-- "Grab 3 of each of: .item(Fairy), .item(Blue Nightshade), .item(Endura Carrot)":
-    notes:
-    - Grabbing the .item(fairies) first will save a D&P later.
-    - You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
+- Grab 3× .item(Fairies):
+    notes: You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
+    icon: item-fairy
 - Bomb the tree right by the large rock:
     markers:
     - at: [1953,858.66]
 - Bomb it again to get a .item(bundle of Wood):
     notes: That tree was also a major source of lag for the upcoming windbomb
+- Grab 3× .item(Blue Nightshade):
+    icon: item-blue-nightshade
+- Grab 3× .item(Endura Carrot):
+    icon: item-endura-carrot
 - Stand on the tip of the large rock:
     comment: Face NE, slightly CCW
     movements:
