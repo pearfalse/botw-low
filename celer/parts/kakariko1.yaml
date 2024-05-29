@@ -1,10 +1,10 @@
 - .blss(BLSS) to the top of .loc(Sahasra Slope):
     coord: [1540,1056]
 - .wb(Windbomb) into .loc(Kakariko Village):
-    comment: and land by the .item(Torch) near the upper campfire
-    movements:
-    - [1781,1056]
-    - [1894, 968]
+    comment: Aim straight NE
+    coord: [1781,1056]
+- Land by the .item(Torch) near the upper campfire:
+    coord: [1894, 968]
 - Redeem .item(Spirit Orbs) for an .milestone(essence) of your choice:
     coord: [1837,999]
 - Grab two .item(Apples) from the left of the Korok trays:
@@ -14,8 +14,11 @@
     movements:
     - [1801,989]
     - [1787,988]
+- Mash through .npc(Paya)’s dialog:
+    comment: No options
+- Side-hop right to land by the front doors
 - Enter .npc(Impa)’s hut and mash through the .dialog(dialog):
-    notes: ["When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B) (.quote(“Understood.”))."]
+    notes: "When she tells you about the Divine Beasts and Hateno Village, always choose .dialog(B) (.quote(“Understood.”))."
     counter: .split-low(HL)
     split-name: History Lesson
 - Head down to the .loc(cooking pot) and grab the .item(Pot Lid):
@@ -23,6 +26,8 @@
     movements:
     - [1784,994]
     - [1799,1011]
+- Stand on the edge of the decking:
+    comment: looking NE
 - .wb(Windbomb) up to the .loc(Great Fairy Fountain):
     movements:
     - [1888,924]
@@ -31,20 +36,29 @@
     notes:
     - Grabbing the .item(fairies) first will save a D&P later.
     - You .bold(must) keep at least one .item(fairy) on you until the next .milestone(manual save).
-- Bomb the tree right by the rock:
+- Bomb the tree right by the large rock:
     markers:
     - at: [1959,855]
-    comment: This prevents possible lag that would stifle an upcoming windbomb
-- Bomb it again to get a .item(bundle of Wood)
-- .wb(Windbomb) over the cliffs and east to the Korok puzzle trees:
+- Bomb it again to get a .item(bundle of Wood):
+    notes: That tree was also a major source of lag for the upcoming windbomb
+- Stand on the tip of the large rock:
+    comment: Face NE, slightly CCW
+    notes: LHS of Link's vision cone should line up with the LHS of the minimap North marker
+- .wb(Windbomb) over the cliffs:
     movements:
       - to: [1960,855]
         warp: true
       - [2052,772]
-      - [2125,685]
+- Run east to the Korok puzzle trees:
+      coord: [2125,685]
 - Bomb the nearest tree and pick up .bold(one) .item(Apple):
-    notes: [Pick up more and you may accidentally solve the puzzle!]
+    notes: Pick up more and you may accidentally solve the puzzle!
 - .blss(BLSS) to the .loc(blue flame furnace) at .loc(Hateno Village):
+    notes:
+      - The fallen log can stop your round bomb rolling away
+      - If you lose your BLSS on the last stretch, you can reobtain it on these ore patches
+    markers:
+      - at: [2871.1,1467.3]
     movements:
       - [2716,1127]
       - [2668,1480]

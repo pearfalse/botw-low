@@ -38,7 +38,7 @@ config:
       includes: milestone
       italic: true
     npc:
-      color: "#ffa"
+      color: "#fe8"
     bold:
       bold: true
     loc:

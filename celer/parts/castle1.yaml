@@ -3,7 +3,7 @@
     - [-55,-875.2]
     - [-339.5,-960]
     - [-340.5,-995.6]
-    notes: ["The section of wall in this launch point is perfectly ordinal-aligned, so if you can’t use the minimap to check your rotation, stand 45˚ to this edge."]
+    notes: "The section of wall in this launch point is close enough to ordinal-aligned, so if you can’t use the minimap to check your rotation, stand 45˚ to this edge."
 - Stand inside on the floor above .loc(Princess Zelda’s Room)
 - Equip .item(Torch), unequip bows and shields
 - _ManualSave:
@@ -46,6 +46,7 @@
       - at: [-327.5,-987.5]
 - Sneakstrike the .enemy(Moblin) with the .item(Master Sword):
     comment: and take its .item(Edge of Duality)
+    notes: “IST nonsense” means the MS now has the 8 durability from the .item(Torch).
     icon: item-ms
 - Grab the .item(Royal Guard’s Bow) with Magnesis:
     icon: item-rgb

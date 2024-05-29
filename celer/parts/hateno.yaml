@@ -1,32 +1,37 @@
 - .glitch(Weapon smuggle) your .item(Torch) lit with the blue flame
-- Climb on top of the furnace, stand at the edge, and aim your bow at this spot:
+- Climb on top of the furnace, stand on the front tip, and aim your bow at this spot:
     markers:
     - at: [3467.5,1993.4]
 - .wb(Windbomb) towards the .loc(Hateno Ancient Tech Lab):
     comment: Axis-align Link before detonating the round bomb
     movements:
       - [3639.5,2141]
-- Light the furnace at the .loc(Hateno Ancient Tech Lab):
+- Run to the .loc(Hateno Ancient Tech Lab):
     movements:
       - [3713,2073]
       - [3753.5,2056]
       - [3790.5,2082.5]
-      - [3788,2120.5]
     comment: Grab .item(Apples) from the trees if you have less than 3
+- Light the .milestone(furnace):
+    movements:
+    - [3788,2120.5]
     counter: .split-low(TL)
     split-name: Tech Lab
 - Talk to .npc(Purah), gain missing runes, show her a photo of herself:
     movements:
-      - [3775,2124.5]
+    - [3778.1,2113.1]
+    - [3775,2124.5]
 - Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
 - Drop any Plateau healing materials:
     comment: likely .item(Spicy Pepper), .item(Hylian Shroom)
 - Ensure .item(Fairies) are in .tab(Materials) slot 1
 - Ensure shields are unequipped
 - .milestone(Manually save)
+- Stand on the edge of the outcrop by the tree:
+    coord: [3804.5,2106]
+    comment: Aim E
 - .wb(Windbomb) down to .loc(Pruce’s General Store):
     movements:
-      - [3804.5,2106]
       - [3462.5,2122]
       - [3361.5,2156]
 - Create .glitch(8 offset) using .npc(Pruce) and gathered materials:
@@ -38,6 +43,8 @@
       - to: [3775,2124.5]
         warp: true
 - .blss(BLSS) to .loc(Lomei Labyrinth Island):
+    comment: Bomb tree once for a launch point
+    notes: It's frequently windy by the tech lab, so again, stand by the fallen log to stop your round bomb rolling away.
     color: "#85e"
     movements:
       - [3797,2109]
@@ -51,19 +58,20 @@
       - [4672.75,-3687.4]
       - [4655.5,-3687.4]
 - Run up the maze exit path to .loc(Tu Ka'loh Shrine)
+- Set .glitch(skew) on the shrine front lip
 - .glitch(Extended Shield Clip) into .loc(Tu Ka'loh Shrine):
     icon: shrine
     coord: [4655.5,-3706]
 - Open the chest for a .item(Barbarian Helm):
     comment: .bold(Do not) complete the shrine! Leave by the elevator
-- Head into the basement and approach the .item(Travel Medallion) chest:
+- Drop down the shaft into the basement:
     color: "#62f"
-    movements:
-      - [4655.5,-3687.4]
-      - [4655.5,-3560]
+    coord: [4655.5,-3687.4]
     notes:
     - Shield jump into the shaft to clear .glitch(ragdoll).
     - Avoid brushing up against the southern wall, or Link might take fall damage from a Guardian Stalker leg that can clip through the other side.
+- Approach the .item(Travel Medallion) chest:
+    coord: [4655.5,-3560]
 - Stand in front of the chest and prepare the inventory:
     comment: See .glitch(IST script) alongside this and future steps
 - Open the .milestone(Travel Medallion) chest and reload:
@@ -74,9 +82,9 @@
 - Make desynced manual save:
     notes: "If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."
     counter: .split-low(AF)
+    split-name: All Fairies
 - Use .glitch(phantom Armor tab) to get .glitch(Star):
     comment: AKA .quote(Star Icon Invalid Slot), cursor glitch, and other names
 - Prepare .tab(Materials) tab and reload manual save
 - Combine 3 .item(Ancient Screws) into one slot and spend them on the .milestone(Sheikah Sensor +):
-    counter: .ist-section(E)
     color: "#f49"
