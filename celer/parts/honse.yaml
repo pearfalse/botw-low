@@ -6,7 +6,6 @@
     coord: [534,3340.8]
 - Land on the horse and register it at the .loc(Highland Stable):
     coord: [529.5,3448.5]
-- Sell all .item(Roasted Endura Carrots) to .npc(Beedle)
 - Prepare inventory for more .glitch(corruption):
     comment: See .glitch(ist3.txt)
     counter: .var(ist-section)
@@ -30,7 +29,6 @@
 - Reload autosave twice:
     comment: See .glitch(ist3.txt)
 - Ensure inventory contains .item(no arrows) and a .glitch(leading 0× stack) of .item(Fairies):
-    comment: Checking will sync
     counter: .ist-section(E)
 - Get autosave at the .loc(Mounted Archery Camp):
     movements:
@@ -50,6 +48,8 @@
 - _TM::Warp<1871.5,914.5>
 - Grab 2× .item(Sneaky River Snail):
     coord: [1885.5,1001.8]
+    counter: .ist-section(4)
+    comment: See .glitch(ist4.txt)
 - Grab 1× .item(Ironshroom):
     coord: [1836,981.9]
 - Grab 2× .item(Apple) from the Korok trays:
@@ -63,6 +63,7 @@
 - Sell her all your .item(Roast Endura Carrots)
 - Get correct items into offset slots:
     comment: .item(Bow of Light), 3–10× .item(Fairy), .item(Travel Medallion)
+    counter: .ist-section(E)
 - _NewGame:
     text: .milestone(Start a new game) in .glitch(Extended Memory Storage)
     counter: .split-low(EMS)
