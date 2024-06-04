@@ -18,7 +18,7 @@
 - _Shrine::OmanAu:
     counter: .split-low(M1)
     comment: No .wb(windbomb)!
-    notes: "Get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 84%. You only need one."
+    notes: "Get an .item(Ancient Screw) from the .enemy(Guardian Scout). Chance of success is about 90%. You only need one."
     split-name: Magnesis 1
 - _Plat::Stas0
 - _Plat::Stas1
