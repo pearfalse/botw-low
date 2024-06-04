@@ -44,7 +44,9 @@ config:
     loc:
       color: "#2e4"
     glitch:
-      color: "#f3c"
+      color:
+        dark: "#f3c"
+        light: "#c18"
     quote:
       italic: true
       color: "#eee"
@@ -67,6 +69,7 @@ config:
     sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
 
     item-boko-spear: https://ist.itntpiston.app/assets/img/Weapon/BokoSpear.png
+    item-torch: https://ist.itntpiston.app/assets/img/Weapon/Torch.png
     item-ms: https://ist.itntpiston.app/assets/img/Weapon/MasterSword.png
     item-trav-bow: https://ist.itntpiston.app/assets/img/Bow/TravelersBow.png
     item-rgb: https://ist.itntpiston.app/assets/img/Bow/RoyalGuardsBow.png
