@@ -14,14 +14,13 @@
     movements:
     - [1784,994]
     - [1797,1012]
+    comment: Use stack to the ←left← of the .item(Fairies)
 - .glitch(Entangle) .term(Drop) prompts from both .item(shields) to drop the .item(Sheikah Slate) and .item(Paraglider):
     counter: .ist-section(E)
-- _TM::Set<1871.5,914.5>
 - .wb(Windbomb) from the cooking pot to near the shrine:
     comment: Same as last time
-    movements:
-    - [1888,924]
-    - [1971,868]
+    coord: [1888,924]
+- _TM::Set<1871.5,914.5>
 - Bomb the tree by .loc(Ta'loh Naeg Shrine) to create a BLSS launch point:
     coord: [1835,935.8]
 - .blss(BLSS) to the edge of .loc(Hyrule Castle):

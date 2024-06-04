@@ -5,7 +5,8 @@
     - [-340.5,-995.6]
     notes: "The section of wall in this launch point is close enough to ordinal-aligned, so if you can’t use the minimap to check your rotation, stand 45˚ to this edge."
 - Stand inside on the floor above .loc(Princess Zelda’s Room)
-- Equip .item(Torch), unequip bows and shields
+- Equip .item(Torch), unequip bows and shields:
+    icon: item-torch
 - _ManualSave:
     counter: .split-low(C1)
     split-name: Castle 1
@@ -33,9 +34,9 @@
     color: "#840"
 - Prepare .tab(Materials) tab:
     color: "#f49"
-    comment: See .glitch(ist2.txt)
     counter: .var(ist-section)
-- Cook the special meal and smuggle its recipe
+- Cook the .glitch(special meal) and .glitch(smuggle) its recipe:
+    comment: See .glitch(ist2.txt)
 - Reload and transfer back into the .milestone(manual save):
     movements:
     - to: [-340.5,-995.6]
@@ -49,13 +50,14 @@
     comment: and take its .item(Edge of Duality)
     notes: “IST nonsense” means the MS now has the 8 durability from the .item(Torch).
     icon: item-ms
+    coord: [-311.81, -997.3]
 - Grab the .item(Royal Guard’s Bow) with Magnesis:
     icon: item-rgb
+    coord: [-310.25, -995.87]
 - Finish the .glitch(WMC setup) in Zelda’s room
 - .wb(Windbomb) to the SE .loc(Sanctum) entrance:
     movements:
-      - to: [-340.5,-995.6]
-        warp: true
+      - [-340.5,-995.6]
       - [-344.5,-995.9]
       - [-191,-1001.9]
       - [-217,-1025.9]

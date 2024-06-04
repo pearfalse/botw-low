@@ -84,7 +84,7 @@
 - Make desynced manual save:
     notes: "If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."
     counter: .split-low(AF)
-    split-name: All Fairies
+    split-name: All Fairies%
 - Use .glitch(phantom Armor tab) to get .glitch(Star):
     comment: AKA .quote(Star Icon Invalid Slot), cursor glitch, and other names
 - Prepare .tab(Materials) tab and reload manual save
