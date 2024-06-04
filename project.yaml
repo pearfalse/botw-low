@@ -93,6 +93,8 @@ config:
           warp: true
     ManualSave:
       text: .milestone(Manually save)
+    ManualSaveReload:
+      text: Reload .milestone(Manual save)
     _TM:
       SetHere:
         text: Place the .item(Travel Medallion) here

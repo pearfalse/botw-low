@@ -10,7 +10,7 @@
     comment: See .glitch(ist3.txt)
     counter: .var(ist-section)
 - _ManualSave
-- Reload manual save
+- _ManualSaveReload
 - Ride horse towards the .loc(Mounted Archery Camp):
     comment: Don’t sync! Stop riding at first autosave
     notes:
