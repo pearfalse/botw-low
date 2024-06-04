@@ -60,6 +60,7 @@
     movements:
       - [1813.75,1006.3]
       - [1794,1029.5]
+- Sell her all your .item(Roast Endura Carrots)
 - Get correct items into offset slots:
     comment: .item(Bow of Light), 3–10× .item(Fairy), .item(Travel Medallion)
 - _NewGame:

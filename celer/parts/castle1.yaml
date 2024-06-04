@@ -31,10 +31,11 @@
     - [406.25,-2082.5]
     - pop
     color: "#840"
-- Cook the special meal and smuggle its recipe:
+- Prepare .tab(Materials) tab:
     color: "#f49"
     comment: See .glitch(ist2.txt)
     counter: .var(ist-section)
+- Cook the special meal and smuggle its recipe
 - Reload and transfer back into the .milestone(manual save):
     movements:
     - to: [-340.5,-995.6]

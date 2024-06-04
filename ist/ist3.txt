@@ -1,23 +1,25 @@
-init 1 master sword [life=800,equip] 1 boko spear [life=400] 1 torch 1 edge of 1 trav bow [life=3] 1 roy g b [hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1987 arrow [equip] 2 forest shield [equip] 1 pot lid [life=3] 1 pot lid [hp=112,price=311] 999 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 1 mush s [modifier=mighty] 3 fried wild [modifier=enduring] 1 medallion
+init 1 master sword [life=800,equip] 1 boko spear [life=400] 1 torch 1 edge of 1 trav bow [life=3] 1 roy g b [hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1987 arrow [equip] 2 forest shield [equip] 1 pot lid [life=3] 1 pot lid [hp=112,price=311] 999 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 1 mush s [modifier=mighty] 2 fried wild [modifier=enduring] 1 medallion
 break 8 slots
-sell all roast end c
 drop pot lid from slot 2
 equip pot lid
 dnp trav bow [life=3]
 equip trav bow
 save
 drop all shields
-# 4 food scrap
-unequip bow
+unequip trav bow
+# 3 food scrap
 reload
 save as A_Horse
 reload A_Horse
 # 6 food scrap
-eat all mush sk 3 fried wild
+eat all mush sk 1 fried wild
 write [life=0] to fairy
 reload A_Horse
-equip roy g b
-shoot 2 arrow
+shoot 1 arrow
 # the simulator incorrectly deletes the 0x fairy stack here; you'll get to keep it
+eat trav bow
+equip roy g b
+shoot 1 arrow
 eat 1 arrow
 save as A_MAC
+close game
