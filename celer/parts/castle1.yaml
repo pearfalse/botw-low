@@ -45,7 +45,7 @@
     comment: Shoot an arrow at the marked spot
     color: "#820"
     markers:
-      - at: [-327.5,-987.5]
+      - at: [-311,-987.5]
 - Sneakstrike the .enemy(Moblin) with the .item(Master Sword):
     comment: and take its .item(Edge of Duality)
     notes: “IST nonsense” means the MS now has the 8 durability from the .item(Torch).
