@@ -10,13 +10,13 @@
 - Defeat .enemy(Waterblight Ganon) and .enemy(Fireblight Ganon):
     notes: ["These fights are 100% identical to the first time, including the possible one-shot on .enemy(Fireblight)."]
 - Defeat .enemy(Thunderblight Ganon):
-    comment: Use the .item(Boomerang) in phase 1
+    comment: Use the .item(Boomerang) in phase 2
     counter: .split-low(B2)
     split-name: Blights 2
 - Defeat .enemy(Calamity Ganon):
     notes:
     - In phase 2, after breaking its shield with a parry, NSJ to activate the .glitch(skew bounce). This gives you enough height to enter bullet time and headshot Calamity.
-    - This time though, it’s important not to leave the Calamity fight with a Bow of Light equipped, or it’ll dupe when you arrive at .loc(the DBG fight). Pause buffer with the bow quick menu to unequip before the fight ends. This will take some practice.
+    - This time though, it’s important not to leave the Calamity fight with a Bow of Light equipped, or it’ll dupe when you arrive at .loc(the DBG fight). Pause buffer with the bow quick menu to unequip before the fight ends.
 - Enter the .enemy(Dark Beast Ganon) fight:
     notes:
     - If your .item(Bow of Light) duped, use the dupe and keep it equipped. Do not pick up the intended one.
@@ -24,7 +24,8 @@
 - Complete the first .bold(three) phases of the fight:
     notes:
       - If playing with English voice acting, Zelda will say .quote(“We’re so close!”) at the end of phase 3.
-- Watch a memory
+- Watch a memory:
+    comment: .milestone(Revali’s Flap), 4/18
 - Clear inventory:
     comment: Keep only the .item(Lizal Tri-Boomerang), 2 .item(Bows of Light), the .item(Steel Lizal Shield), and .item(Paraglider)
 - Finish the .enemy(Dark Beast Ganon) fight:

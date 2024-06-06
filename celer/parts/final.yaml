@@ -6,7 +6,7 @@
 - Defeat .enemy(Windblight Ganon) and .enemy(Waterblight Ganon):
     comment: Same strats as last time
 - Defeat .enemy(Fireblight Ganon):
-    notes: ["If you miss the one-shot kill, you’ll have to parry the fireball. Its trajectory is so vertical that parrying is sometimes impossible, so stand as far back as you can."]
+    notes: If you miss the one-shot kill, you’ll have to parry the fireball. Its trajectory is so vertical that parrying is impossible from steeper angles, so stand as far back as you can.
 - Defeat .enemy(Thunderblight Ganon):
     counter: .split-low(B3)
     split-name: Blights 3

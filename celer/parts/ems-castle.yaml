@@ -30,15 +30,17 @@
 - _TM::Set<-307,-1006>
 - .wb(Windbomb) to the .loc(Dining Hall):
     coord: [-97,-833]
-- Kill the .enemy(Black Moblins)
-- Collect enough materials to fill one page of your .tab(Materials) tab
+- Kill the .enemy(4 Black Moblins)
+- Collect all materials in the NE half of the room
 - Bomb the cracked wall and kill the .enemy(Black Lizalfos) behind it:
     movements:
     - [-158.75,-891.3]
     - [-152,-898.1]
 - Take its .item(boomerang), .item(shield), and any two distinct .item(monster parts)
-- Cook one food item into a meal to unlock the .tab(Food) tab:
+- Return to the .loc(Dining Hall) and collect more .tab(Materials):
+    comment: You need to reach 22 (1 page + 2)
     coord: [-149.75,-816]
+- Cook one food item into a meal to unlock the .tab(Food) tab
 - .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate)
 - _TM::Warp<-307,-1006>:
     text: Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion)

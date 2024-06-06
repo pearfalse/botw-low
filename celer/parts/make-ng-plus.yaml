@@ -47,6 +47,7 @@
 - Glide out of the .loc(Hyrule Castle) area to restore the overworld map:
     notes:
       - To get in to the gliding state, jump several metres off the ground, chain a backflip and 1H jump-attack, and open the glider.
+      - Gliding is not technically required, but it is quicker.
     movements:
     - [-185,-1008]
     - [48.5,-1029]
