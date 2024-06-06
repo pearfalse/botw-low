@@ -31,7 +31,7 @@
 - .milestone(Manually save)
 - Stand on the edge of the outcrop by the tree:
     coord: [3804.5,2106]
-    comment: Aim E
+    comment: Aim W
 - .wb(Windbomb) down to .loc(Pruce’s General Store):
     movements:
       - [3462.5,2122]
