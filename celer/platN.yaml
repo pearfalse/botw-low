@@ -5,7 +5,7 @@ presets:
       coord: [-1125,1903.1]
       icon: item-slate
     Early1:
-      text: Clip out of .loc(Shrine of Resurrection)
+      text: .glitch(Scope clip) out of .loc(Shrine of Resurrection)
       movements:
       - [-1099.75,1927.6]
       - [-1006.5,1948.6]
