@@ -78,11 +78,11 @@
     comment: See .glitch(IST script) alongside this and future steps
 - Open the .milestone(Travel Medallion) chest and reload:
     icon: chest
+- Make .glitch(desynced) manual save:
+    notes: "If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."
     movements:
     - to: [3775,2124.5]
       warp: true
-- Make desynced manual save:
-    notes: "If the DLC armor side quest barrage kicks in and makes a .glitch(desynced autosave), ignore it."
     counter: .split-low(AF)
     split-name: All Fairies%
 - Use .glitch(phantom Armor tab) to get .glitch(Star):
