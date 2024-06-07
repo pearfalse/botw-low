@@ -67,6 +67,7 @@ config:
     shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
     tm: https://icons.pistonite.org/icon/location.travel_medallion.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
     sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    camera: https://icons.pistonite.org/icon/rune.camera.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
 
     item-boko-spear: https://ist.itntpiston.app/assets/img/Weapon/BokoSpear.png
     item-torch: https://ist.itntpiston.app/assets/img/Weapon/Torch.png
@@ -80,6 +81,7 @@ config:
     item-fairy: https://ist.itntpiston.app/assets/img/Material/Fairy.png
     item-endura-carrot: https://ist.itntpiston.app/assets/img/Material/EnduraCarrot.png
     item-blue-nightshade: https://ist.itntpiston.app/assets/img/Material/BlueNightshade.png
+    item-silent-princess: https://ist.itntpiston.app/assets/img/Material/SilentPrincess.png
     item-slate: https://ist.itntpiston.app/assets/img/Key/SheikahSlate.png
 
 - splits:

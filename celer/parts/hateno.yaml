@@ -21,6 +21,7 @@
     movements:
     - [3778.1,2113.1]
     - [3775,2124.5]
+    icon: camera
 - Ensure pristine .item(Pot Lid) is in .tab(Shields) slot 2
 - Drop any Plateau healing materials:
     comment: likely .item(Spicy Pepper), .item(Hylian Shroom)
@@ -90,3 +91,9 @@
 - Prepare .tab(Materials) tab and reload .milestone(manual save)
 - Combine 3 .item(Ancient Screws) into one slot and spend them on the .milestone(Sheikah Sensor +):
     color: "#f49"
+- "Drop 1× and save Compendium photos of these two items:":
+    icon: camera
+- .item(Blue Nightshade):
+    icon: item-blue-nightshade
+- .item(Silent Princess):
+    icon: item-silent-princess

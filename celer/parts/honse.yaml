@@ -4,13 +4,16 @@
 - Kill one of the horse-mounted .enemy(Bokoblins) with the .item(Bow of Light):
     notes: ["You might have to paraglide a bit before they’ll load in. Do not kill the horse."]
     coord: [534,3340.8]
-- Land on the horse and register it at the .loc(Highland Stable):
+- Land on the horse and ride it to the .loc(Highland Stable):
     coord: [529.5,3448.5]
 - Prepare inventory for more .glitch(corruption):
     comment: See .glitch(ist3.txt)
     counter: .var(ist-section)
-- _ManualSave
-- _ManualSaveReload
+- Sell all your .item(Roasted Endura Carrots) to .npc(Beedle)
+- Register your horse:
+    comment: If this doesn’t autosave, .milestone(manually save)
+- Drop all .item(shields) and unequip the .item(Traveler’s Bow)
+- Reload the last save
 - Ride horse towards the .loc(Mounted Archery Camp):
     comment: Don’t sync! Stop riding at first autosave
     notes:

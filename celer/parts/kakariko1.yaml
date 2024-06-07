@@ -48,6 +48,11 @@
     movements:
     - to: [1987,859]
       warp: true
+- Grab 3× .item(Silent Princess):
+    icon: item-silent-princess
+    movements:
+    - to: [2008.75,845.3]
+      warp: true
 - Grab 3× .item(Endura Carrot):
     icon: item-endura-carrot
     movements:

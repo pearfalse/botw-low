@@ -4,7 +4,7 @@
 # blue nightshade, apple: exactly 1
 # wood: at least 1
 # no other materials, but the above slots can be in any order
-init 1 boko sp [life=400] 1 torch [equip] 1 trav bow 2000 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 3 end c 1 blue ni 1 apple 1 wood 2 fried wild [modifier=enduring] 1 medallion
+init 1 boko sp [life=400] 1 torch [equip] 1 trav bow [equip] 2000 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 2 end c 1 blue ni 1 apple 1 wood 2 fried wild [modifier=enduring] 1 medallion
 break 8 slots
 # weapon/bow equip status MUST match
 save
@@ -20,8 +20,8 @@ drop 1 forest spear 1 torch 1 pot lid 1 forest shield
 sell all fried wild
 drop 1 apple
 get 1 baked apple
-drop all end c
-# pick up and roast all of them; only pick one up from the pot edge
+drop all end c  
+# only pick one up from the pot edge. you have time to leave the other one there
 get 1 roast end c
 # entangle hold prompt from blue nightshade to REC; hold stack to 3
 write [life=3] to roast end c
@@ -43,8 +43,8 @@ drop 1 trav bow 1 pot lid 1 forest shield
 write [life=0] to master sword
 drop tree branch
 get trav bow
-equip forest spear
 unequip trav bow
+equip forest spear
 save as A_Shrine
 eat 1 baked 1 fried wild 1 roast end c
 get 1 tree branch 1 forest sh 1 pot lid [life=3]
@@ -57,12 +57,12 @@ reload A_Shrine
 # TOTS dialog CS will get this for you
 save as A_TOTS
 eat all roast end all fried wild
-drop trav bow
+drop all trav bow
 reload A_TOTS
-# move into the deku tree
-drop 1 forest spear 2 trav bow
+# move into the deku tree. you won't need the spears back
+drop 2 forest spear 1 trav bow
 eat 1 baked apple
-get 1 razorshroom
+buy 1 razorshroom
 # entangle hold prompt from fairy
 write [life=4] to razorshroom
 drop all razorshroom
@@ -70,9 +70,9 @@ get mush skew [modifier=mighty]
 eat fried wild
 get 1 trav bow [life=3]
 unequip trav bow
-drop pot lid
 # entangle TB equip prompt onto MS
 equip master
+drop pot lid
 reload
 equip master sword
 # distract and sneakstrike the black moblin
