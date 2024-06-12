@@ -28,6 +28,7 @@
 - _Plat::Cryo0<Traveler's Bow>
 - _Plat::Cryo1
 - _Shrine::KehNamut:
+    comment: Re-equip shield before leaving
     counter: .split-low(C1)
     split-name: Cryonis 1
 - _Plat::Para0:

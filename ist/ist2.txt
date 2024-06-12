@@ -37,6 +37,7 @@ drop all wood
 # you need to be able to tell the two pot lids apart! dropping the 1st then 2nd in the same pause session will probably mean you pick them back up in the opposite order, which is what we want
 drop 1 torch 1 pot lid[life=3] 1 pot lid
 # equip MS normally, entangle other weapon equip to a material (fairy)
+equip master sword
 equip boko spear
 write [life=400] to master sword
 # equip MS normally, jump attack 4x
@@ -62,7 +63,6 @@ eat 1 baked apple 1 fried wild
 buy 4 razorshroom
 drop all razorshroom
 get mush skew [modifier=mighty]
-# it should be already
 unequip trav bow
 reload
 # distract and sneakstrike the black moblin
@@ -79,7 +79,7 @@ drop pot lid [equip]
 unequip all bows
 reload
 save
-# 3 food scrap
+# 2 food scrap
 eat 1 roast end c 1 mush sk
 reload
 eat all fried wild

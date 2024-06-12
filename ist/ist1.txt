@@ -22,8 +22,8 @@ dnp 1 anc screw
 reload
 dnp 1 anc screw from slot 2
 sell 3 anc screw
-drop 4 end c
-get 2 fried wild [modifier=enduring]
-drop 1 slate 1 glider
+drop 2 end c 1 end c 1 end c 1 slate 1 glider
+get 1 fried wild [modifier=enduring,price=110] 2 fried wild [modifier=enduring,price=50]
+sell 1 fried wild
 # most materials left of fairies are problematic; ist2 requires them to be absent
 drop all silent p 2 blue ni 5 apple 1 wood
