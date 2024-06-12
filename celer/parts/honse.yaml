@@ -9,7 +9,6 @@
 - Prepare inventory for more .glitch(corruption):
     comment: See .glitch(ist3.txt)
     counter: .var(ist-section)
-- Sell all your .item(Roasted Endura Carrots) to .npc(Beedle)
 - Register your horse:
     comment: If this doesn’t autosave, .milestone(manually save)
 - Drop all .item(shields) and unequip the .item(Traveler’s Bow)
@@ -17,7 +16,7 @@
 - Ride horse towards the .loc(Mounted Archery Camp):
     comment: Don’t sync! Stop riding at first autosave
     notes:
-    - Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the last reload.
+    - Remember that this is still part of the .glitch(IST setup) and you need to eat all arrows after the second reload.
     - Autosave occurs roundabout the marked point.
     movements:
     - [484.25,3447.6]

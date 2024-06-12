@@ -1,70 +1,63 @@
 # Prepare Materials tab to match this in Kakariko Village:
 # fairies: 500 or more
-# endura carrot: between 2 and 5
+# endura carrot: exactly 2
 # blue nightshade, apple: exactly 1
 # wood: at least 1
 # no other materials, but the above slots can be in any order
-init 1 boko sp [life=400,equip] 1 torch 1 trav bow [equip] 2000 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 2 end c 1 blue ni 1 apple 1 wood 2 fried wild [modifier=enduring] 1 medallion
+init 1 boko sp [life=400,equip] 1 torch 1 trav bow [equip] 2000 arrow [equip] 1 pot lid [life=3] 1 pot lid 999 fairy 2 end c 1 blue ni 1 apple 1 wood 2 fried wild [modifier=enduring,price=110] 1 medallion
 break 8 slots
 equip pot lid in slot 2
 # shield equip status MUST match
 save
 # enter KF, don't discover the shrine
-get 1 tree branch
-# stay inside the deku tree to stop things despawning
-# drop these first
-drop 1 boko spear
-drop 1 pot lid from slot 2
-#then these
-drop 1 torch 1 pot lid [life=3]
-# selling one is enough; you need 20–80 rupees
-sell all fried wild
+# get 1 tree branch to replace your boko spear, if it's missing or at > 4 dura
+drop 1 boko spear 1 torch 1 pot lid [life=3]
+sell 1 fried wild
+eat all fried wild
 drop 1 apple
 get 1 baked apple
 drop all end c
 # only pick one up from the pot edge. you have time to leave the other one there
 get 1 roast end c
-# entangle hold prompt from blue nightshade to REC; hold stack to 3
+# entangle hold prompt from 2nd material to REC; hold stack to 3
 write [life=3] to roast end c
 # unpause and pause to return cursor to the materials tab
 drop 1 blue ni 3 roast end c
 cook fried wild greens [modifier=sneaky,price=311,hp=112]
 # pick up another REC
 get 1 roast end c
-get 1 pot lid [life=3] 1 torch 1 boko spear [life=400] 1 pot lid [life=1000]
+get 1 pot lid [life=3] 1 torch 1 boko spear [life=400]
 # campfire glitch; weapon smuggle a lit torch from the deku tree to the pedestal
 # as part of weapon smuggle:
 unequip pot lid
 drop 1 wood 1 torch
-get 1 master sword
+get 1 master sword 1 torch
 drop all wood
 # head under large tree root, near Keo Ruug Shrine
-# you need to be able to tell the two pot lids apart!
-drop 1 trav bow 1 pot lid[life=3] 1 pot lid
-# equip MS normally, entangle tree branch equip to a material (fairy)
-equip tree branch
+# you need to be able to tell the two pot lids apart! dropping the 1st then 2nd in the same pause session will probably mean you pick them back up in the opposite order, which is what we want
+drop 1 torch 1 pot lid[life=3] 1 pot lid
+# equip MS normally, entangle other weapon equip to a material (fairy)
+equip boko spear
 write [life=400] to master sword
 # equip MS normally, jump attack 4x
 write [life=0] to master sword
-drop tree branch
-get trav bow
-unequip trav bow
+unequip all weapons
+dnp trav bow
+# approach Keo Ruug Shrine to discover it and force an autosave
 save as A_Shrine
 eat 1 baked 1 fried wild 1 roast end c
-get 1 tree branch 1 pot lid [life=1000] 1 pot lid [life=3]
-dnp boko spear [life=400]
-equip trav bow
+get 1 torch 1 pot lid [life=1000] 1 pot lid [life=3]
 unequip pot lid in slot 1
 equip pot lid in slot 2
-unequip tree branch
+dnp boko spear [life=400]
 reload A_Shrine
 # TOTS dialog CS will get this for you
 save as A_TOTS
 eat all roast end all fried wild
 drop all trav bow
 reload A_TOTS
-# move into the deku tree. you won't need the spears back
 drop 2 boko spear
+# move into the deku tree. you won't need the spears back
 eat 1 baked apple 1 fried wild
 buy 4 razorshroom
 drop all razorshroom
@@ -72,21 +65,22 @@ get mush skew [modifier=mighty]
 # it should be already
 unequip trav bow
 reload
-drop pot lid [life=3]
 # distract and sneakstrike the black moblin
 get 1 roy g b
-equip roy g b
 drop all end carrot all blue ni all apple all wood
-unequip all shields
+equip pot lid in slot 1
+unequip all weapons
 drop trav bow from slot 2
 save
 # 0 food scrap
 eat all roast end c all mush sk all fried wild
-equip pot lid in slot 3
+drop pot lid [equip]
+# shoud already be the case
+unequip all bows
 reload
 save
 # 3 food scrap
-eat 1 roast end c
+eat 1 roast end c 1 mush sk
 reload
 eat all fried wild
 eat all mush sk
@@ -99,11 +93,12 @@ shoot 12 arrows
 write [life=800] to roy g b
 get bow of light
 drop 3 pot lid
+# if you're left with the gossamer pot lid, equip it
 # 0 food scrap
 eat all fried wild
 reload
 # if you couldn't reload from DBG with two shields: drop all bows right of the BoL, drop the first pot lid if you have 3, eat all meals, reload manual save again
-drop 1 roy g b from slot 2
+drop roy g b from slot 2
 drop trav bow from slot 2
 save
 # once again, 0 food scrap

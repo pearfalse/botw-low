@@ -1,21 +1,23 @@
-init 1 master sword [life=800,equip] 1 boko spear [life=400] 1 torch 1 edge of 1 trav bow [life=3] 1 roy g b [hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1987 arrow [equip] 2 forest shield [equip] 1 pot lid [life=3] 1 pot lid [hp=112,price=311] 999 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 1 mush s [modifier=mighty] 2 fried wild [modifier=enduring] 1 medallion
+init 1 boko spear [life=400] 1 torch 1 trav bow [life=3] 1 roy g b [life=800,hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1987 arrow [equip] 2 pot lid [equip] 1 pot lid 1 pot lid [life=3,hp=112,price=311] 999 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 2 fried wild [modifier=enduring,price=110] 1 mush sk [modifier=mighty] 1 trav med
 break 8 slots
-drop pot lid from slot 2
-equip pot lid
+equip pot lid in slot 4
+drop 3 pot lid
 dnp trav bow [life=3]
 equip trav bow
 save
-drop all shields
+drop all pot lid
 unequip trav bow
-# 3 food scrap
+# full food tab, 4 slots
 reload
 save as A_Horse
 reload A_Horse
-# 6 food scrap
+# 5 food scrap
 eat all mush sk 1 fried wild
+# lose 2 fairies normally, entangle drop prompt from first weapon onto fairy, drop, reload without unpausing
 write [life=0] to fairy
 reload A_Horse
 shoot 1 arrow
+# shooting the arrow will break the bow
 # the simulator incorrectly deletes the 0x fairy stack here; you'll get to keep it
 eat trav bow
 equip roy g b

@@ -1,11 +1,12 @@
 save as A_new
-init 1 master sword [life=800,equip] 1 boko spear [life=400] 1 torch 1 edge of 1 roy g b [hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1 trav bow [life=3] 2 forest shield 1 pot lid [life=3,equip] 0 fairy 3 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 5 fried wild [modifier=enduring] 1 mush s [modifier=mighty] 2 fried wild [modifier=enduring] 1 medallion
+init 1 boko spear [life=400,equip] 1 torch 1 roy g b [life=700,hp=112,price=311,equip] 1 bow of light [hp=112,price=311] 1 pot lid [life=3,hp=112,price=311,equip] 0 fairy 3 fairy 999 roast end c [hp=112,price=311,modifier=sneaky] 7 fried wild [modifier=enduring, price=110] 1 mush s [modifier=mighty] 1 medallion
 dnp 3 fairy
-# skip the snails if you're comfortable using the fairies for offset generation
-get 2 sneaky 1 ironshroom 2 apple 2 swift
-break 3 slots with 2 snail 1 ironshroom 2 apple 2 swift c
+# from the enemy camp west of the MAC
+get 2 hy shr
+# warp to kakariko
+get 2 sneaky 1 ironshroom 2 apple
+break 3 slots with 2 hy sh 2 snail 1 ironshroom 2 apple
 sell all roast end c
 eat all fried wild all mush sk
 drop all shields
-drop trav bow
 reload A_new
