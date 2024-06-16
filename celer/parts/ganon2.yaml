@@ -28,6 +28,7 @@
     comment: .milestone(Revali’s Flap), 4/18
 - Clear inventory:
     comment: Keep only the .item(Lizal Tri-Boomerang), 2 .item(Bows of Light), the .item(Steel Lizal Shield), and .item(Paraglider)
+    counter: .ist-section(E)
 - Finish the .enemy(Dark Beast Ganon) fight:
     comment: Keep the second .item(Bow of Light) equipped
     counter: .split-low(DBG1)

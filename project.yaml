@@ -72,6 +72,7 @@ config:
     item-boko-spear: https://ist.itntpiston.app/assets/img/Weapon/BokoSpear.png
     item-torch: https://ist.itntpiston.app/assets/img/Weapon/Torch.png
     item-ms: https://ist.itntpiston.app/assets/img/Weapon/MasterSword.png
+    item-liz-boom: https://ist.itntpiston.app/assets/img/Weapon/LizalTriBoomerang.png
     item-trav-bow: https://ist.itntpiston.app/assets/img/Bow/TravelersBow.png
     item-rgb: https://ist.itntpiston.app/assets/img/Bow/RoyalGuardsBow.png
     item-bol: https://ist.itntpiston.app/assets/img/Bow/BowOfLight.png
@@ -82,6 +83,7 @@ config:
     item-endura-carrot: https://ist.itntpiston.app/assets/img/Material/EnduraCarrot.png
     item-blue-nightshade: https://ist.itntpiston.app/assets/img/Material/BlueNightshade.png
     item-silent-princess: https://ist.itntpiston.app/assets/img/Material/SilentPrincess.png
+    item-steak: https://ist.itntpiston.app/assets/img/Food/SearedSteak.png
     item-slate: https://ist.itntpiston.app/assets/img/Key/SheikahSlate.png
 
 - splits:

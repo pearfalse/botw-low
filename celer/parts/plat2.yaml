@@ -6,9 +6,15 @@
     color: "#e4a"
 - _Plat::Early0
 - Use .glitch(phantom tabs) to reobtain .glitch(Star)
+- Open one of the armor chests:
+    icon: chest
+    comment: to unlock the tab
 - _Plat::Early1
 - _Plat::Early2
 - _Plat::Early3
+- Take the .item(Seared Steak):
+    comment: Don't eat it!
+    icon: item-steak
 - _Plat::Early4:
     comment: "to unlock the .tab(Materials) tab"
 - _Plat::Early5

@@ -13,15 +13,20 @@
 - _TM::SetHere
 - .blss(BLSS) into Rito Village:
     movements:
-    - [-3263,-1067.5]
-    - [-3685,-1813]
-    - [-3635,-1832.5]
+    - [-3662.9,-1825]
+    - [-3627,-1830]
     notes: ["You can launch off one of the ore patches, but it’s finicky."]
 - Talk to .npc(Kaneli) to get the .quest(Divine Beast Vah Medoh) quest
 - Talk to .npc(Saki) and recover the .milestone(Revali’s Flap) memory:
     coord: [-3610,-1818.7]
     counter: .split-low(:<)
     split-name: ":<"
+- Glide down to .npc(Misa) and sell your armor:
+    comment: Unequip it first!
+    movements:
+    - [-3647.5, -1822]
+    - [-3626.9,-1831.25]
+    - [-3602.75,-1823.25]
 - Glide down to the .npc(Goddess Statue) and redeem your .item(Spirit Orbs) for either .item(essence):
     coord: [-3604.875,-1802.3]
 - _TM::Warp<-2849.25,-636>
@@ -30,20 +35,22 @@
 - _TM::Set<-307,-1006>
 - .wb(Windbomb) to the .loc(Dining Hall):
     coord: [-97,-833]
-- Kill the .enemy(4 Black Moblins)
-- Collect all materials in the NE half of the room
+- Kill the two .enemy(Black Moblins) to the SW
 - Bomb the cracked wall and kill the .enemy(Black Lizalfos) behind it:
     movements:
     - [-158.75,-891.3]
     - [-152,-898.1]
-- Take its .item(boomerang), .item(shield), and any two distinct .item(monster parts)
-- Return to the .loc(Dining Hall) and collect more .tab(Materials):
-    comment: You need to reach 22 (1 page + 2)
-    coord: [-149.75,-816]
-- Cook one food item into a meal to unlock the .tab(Food) tab
-- .glitch(Entangle) edible material prompts to eat the .item(Travel Medallion) and .item(Sheikah Slate)
+- Take its .item(boomerang) and .item(shield):
+    icon: item-liz-boom
+- Return to the .loc(Dining Hall):
+    movements:
+    - [-130.25,-859]
+    - [-149.75,-816]
 - _TM::Warp<-307,-1006>:
     text: Use .glitch(campfire glitch) to quickly warp to the .loc(Travel Medallion)
+- .glitch(Eat) the .item(Travel Medallion):
+    comment: See .glitch(ist5.txt)
+    counter: .ist-section(5)
 - Set up a .glitch(skew bounce):
     notes:
       - Equip a 1H weapon, bow, and shield, and climb above the Sanctum entrance.

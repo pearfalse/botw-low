@@ -1,0 +1,23 @@
+init 1 boko spear [life=400] 1 liz boom 1 bow of light 1 pot lid [life=400] 1 steel liz sh 3 fairy 1 seared 1 medallion 1 slate 1 glider
+# armor tab must be unlocked and empty
+break 3 slots
+save as StartCond
+# entangle lizboom to slate
+drop 1 slate
+# entangle shield drop prompt, put the steak somewhere close by
+drop 1 seared
+# put spare weapons and shields off to one side for picking up later
+drop 1 boko spear 1 pot lid 1 steel sh
+# entangle fairy hold prompt onto BoL, edge of ledge stuff
+drop 1 bow of light
+# and run away from it!
+dnp liz boom
+# stand in front of steak, ready to pick it up
+drop 3 fairy
+# 2x A presses in world, + immediately
+get 1 seared steak
+# entangle steak eat prompt onto TM
+eat 1 travel med
+# unpause, get your fairies back
+get 3 fairy
+pick up 1 boko spear [life=400] 1 pot lid [life=400] 1 steel sh
