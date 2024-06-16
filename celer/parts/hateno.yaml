@@ -18,6 +18,7 @@
     counter: .split-low(TL)
     split-name: Tech Lab
 - Talk to .npc(Purah), gain missing runes, show her a photo of herself:
+    notes: During the door open animation is a great time to eat the last of your plateau food.
     movements:
     - [3778.1,2113.1]
     - [3775,2124.5]
