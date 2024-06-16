@@ -2,7 +2,8 @@
     color: "#f43"
 - Set up a .glitch(skew bounce):
     comment: Same setup as before
-- Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights
+- Enter the .loc(Sanctum) and start the .enemy(Blight Ganon) fights:
+    coord: [-254,-1035]
 - Defeat .enemy(Windblight Ganon) and .enemy(Waterblight Ganon):
     comment: Same strats as last time
 - Defeat .enemy(Fireblight Ganon):
@@ -18,7 +19,8 @@
     notes:
     - You should defensively dodge its first attack before going on the offensive.
     - If the first attack is a horizontal fire axe swipe, and you dodge it early in the window, you .bold(must) do at least one of the flurry rush attacks to move Link out of the way.
-    - Unlike in Calamity 2, pause buffering an unequip of the .item(Bow of Light) is mandatory here; finishing the game with more than one bow will invalidate the run.
+    - This time though, it’s important not to leave the Calamity fight with a Bow of Light equipped, or it’ll dupe when you arrive at .loc(the DBG fight). Pause buffer with the bow quick menu to unequip before the fight ends.
+    - Leaving this fight with an equipped Bow of Light will cause it to dupe and invalidate the run.
 - Defeat .enemy(Dark Beast Ganon):
     notes:
     - Don’t pick up the intended bow at all.

@@ -5,11 +5,11 @@
     - "The .loc(Shrine of Resurrection) assets aren’t fully loaded in when they should be. If you skip the cutscene ASAP, there’s a chance Link’s character model falls into a failsafe trigger underneath the SoR floor for the .item(Sheikah Slate) pickup cutscene. If this happens, your run is .enemy(dead). Here’s the fastest, most consistent way to avoid that:"
     - As soon as you can skip, start pressing the X button .bold(only). You do not need to mash, but without this, the game will take away your ability to skip it at all.
     - When the swirl patterns appear behind Link in the next shot, press +.
-    - I’ve never had this strategy fail, but no guarantees here. If in doubt, don’t skip the cutscene at all and take the time loss.
+    - I’ve never had this strategy kill the run, but it does sometimes fail to let me skip the cutscene.
 - Wait for the autosave
 - Open the options and set them up again:
     notes:
-    - One weird side-effect of .glitch(inventory transfer) (strictly speaking, of the .glitch(1970 save)) is that your options will be reset to default. Reapply anything you want.
+    - One weird side-effect of the .glitch(1970 save) is that your options will be reset to default. Reapply anything you want.
 - Reload the earliest horseback autosave:
     notes: ["It’s the one before the Mounted Archery Camp autosave."]
 - Warp to the .loc(Travel Medallion):
@@ -45,6 +45,7 @@
     - to: [-220,-1026]
       warp: true
 - Glide out of the .loc(Hyrule Castle) area to restore the overworld map:
+    comment: Do not warp
     notes:
       - To get in to the gliding state, jump several metres off the ground, chain a backflip and 1H jump-attack, and open the glider.
       - Gliding is not technically required, but it is quicker.
@@ -54,7 +55,7 @@
 - Warp to the .loc(Travel Medallion):
     comment: to set up a wrong warp
     movements:
-      - to: [1871.5,914.5]
+      - to: [-254,-977]
         warp: true
     icon: tm
 - Unequip everything
