@@ -34,7 +34,7 @@ drop 1 wood 1 torch
 get 1 master sword 1 torch
 drop all wood
 # head under large tree root, near Keo Ruug Shrine
-# you need to be able to tell the two pot lids apart! dropping the 1st then 2nd in the same pause session will probably mean you pick them back up in the opposite order, which is what we want
+# you need to be able to tell the two pot lids apart! dropping them both in the same pause session will probably mean you pick them back up in the opposite order
 drop 1 torch 1 pot lid[life=3] 1 pot lid
 # equip MS normally, entangle other weapon equip to a material (fairy)
 equip master sword

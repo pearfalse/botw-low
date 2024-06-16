@@ -33,6 +33,7 @@
 - _Plat::Cryo0<Bow of Light>
 - _Plat::Cryo1
 - _Shrine::KehNamut:
+    comment: Re-equip shield before leaving
     counter: .split-low(C2)
     split-name: Cryonis 2
 - _Plat::Para0:
