@@ -13,7 +13,7 @@
 - _Plat::Early2
 - _Plat::Early3
 - Take the .item(Seared Steak):
-    comment: Don't eat it!
+    comment: Don’t eat it!
     icon: item-steak
 - _Plat::Early4:
     comment: "to unlock the .tab(Materials) tab"

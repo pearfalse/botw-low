@@ -63,7 +63,7 @@
     movements:
     - to: [1958.2,858.7]
       warp: true
-    notes: LHS of Link's vision cone should line up with the LHS of the minimap North marker
+    notes: LHS of Link’s vision cone should line up with the LHS of the minimap North marker
 - .wb(Windbomb) over the cliffs:
     movements:
     - [2052,772]

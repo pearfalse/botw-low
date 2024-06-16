@@ -5,7 +5,7 @@
     - [-340.5,-995.6]
     notes: "The section of wall in this launch point is close enough to ordinal-aligned, so if you can’t use the minimap to check your rotation, stand 45˚ to this edge."
 - Stand inside on the floor above .loc(Princess Zelda’s Room)
-- Equip .item(Torch) and .item(Traveler's Bow), unequip shield:
+- Equip .item(Torch) and .item(Traveler’s Bow), unequip shield:
     icon: item-torch
 - _ManualSave:
     counter: .split-low(C1)

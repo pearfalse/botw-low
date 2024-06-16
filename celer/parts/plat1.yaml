@@ -25,7 +25,7 @@
 - _Shrine::OwaDaim:
     counter: .split-low(S1)
     split-name: Stasis 1
-- _Plat::Cryo0<Traveler's Bow>
+- _Plat::Cryo0<Traveler’s Bow>
 - _Plat::Cryo1
 - _Shrine::KehNamut:
     comment: Re-equip shield before leaving
