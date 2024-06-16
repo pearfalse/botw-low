@@ -12,7 +12,6 @@ save
 # enter KF, don't discover the shrine
 # get 1 tree branch to replace your boko spear, if it's missing or at > 4 dura
 drop 1 boko spear 1 torch 1 pot lid [life=3]
-sell 1 fried wild
 eat all fried wild
 drop 1 apple
 get 1 baked apple
